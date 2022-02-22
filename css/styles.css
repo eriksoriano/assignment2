@@ -9,9 +9,6 @@
 
 .carousel-item {
 /*     height: 30rem; */
-    background-color: #ffffff;
-    border: 1px solid orange;
-    opacity: 0.6;
     
 }
 
@@ -19,7 +16,9 @@
     align-content: center;
     font-size: larger;
     text-shadow: black;
-    /* background-color: black; */
+    background-color: black;
+    border: 1px solid orange;
+    opacity: 0.6;
 
 }
 

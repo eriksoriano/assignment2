@@ -22,10 +22,15 @@ h1 {
 .carousel-caption {
     align-content: center;
     font-size: larger;
-    text-shadow: black;
+    
     background-color: black;
-    border: 1px solid orange;
+    border: 1px solid;
     opacity: 0.6;
 
 }
 
+.caption-subtitle {
+    color: orange;
+    text-shadow: black;
+}
+    

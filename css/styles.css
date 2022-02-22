@@ -1,0 +1,21 @@
+
+.col {
+    background-color: #f2f2f2;
+    color: #707070;
+}
+
+
+
+
+.carousel-item {
+    height: 30rem;
+    
+}
+
+.carousel-caption {
+    align-content: center;
+    font-size: larger;
+    text-shadow: black;
+    /* background-color: black; */
+
+}

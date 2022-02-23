@@ -1,14 +1,26 @@
-
-* {
-    /* font-family: 'Share Tech Mono', monospace; */
-    color: #f2f2f2;
+body {
+    background-color: #202020;
 }
+
 
 .container {
     background-color: #202020;
+    padding: 1rem;
 
 }
 
+p {
+    font-size: 1em;
+    font-weight: bold;
+}
+.about-cont {
+    background-color: #FFA500;
+    color: #202020;
+    padding: 4rem;
+    /* margin: 2em; */
+    text-align: center;
+    /* font-family: 'Share Tech Mono', monospace */
+}
 
 /****************** NAVIGATION STYLE START *********************/
 
@@ -16,6 +28,7 @@
 .nav {
     /* background-color: #202020; */
     color: #f2f2f2;
+    align-content: center;
 
 }
 
@@ -25,16 +38,20 @@
 }
 
 .nav-link:hover {
-    color: orange;
+    color: #FFA500;
+}
+
+.nav-link.active {
+    color: greenyellow;
 }
 
 /****************** NAVIGATION STYLE END *********************/
 
 
-/****************** This below is for the carousel items *********************/
+/****************** CAROUSEL STYLE START *********************/
 
 .carousel-item {
-    height: fit-content
+    height: fit-content;
     
 }
 
@@ -47,22 +64,37 @@
     background-color: black;
     border: 0.5px solid;
     border-radius: 2rem;
-    opacity: 0.5;
+    opacity: 0.7;
 
 }
 
 .caption-subtitle {
-    color: orange;
     text-shadow: black;
 }
     
+.carousel {
+    /* background-color: aqua; */
+    margin: 2rem;
+}
 
+
+
+/****************** CAROUSEL STYLE END *********************/
+
+
+
+
+/****************** About Samus START *********************/
+
+.samus-aran {
+    font-size: 4rem;
+}
 
 /****************** This below is for ACCORDION items START *********************/
 
 
 .accordion {
-    background-color: orange;
+    background-color: #FFA500;
     padding: 2em;
 
 }
@@ -78,24 +110,26 @@
 }
 
 .accordion-button:active {
-    color: orange;
+    color: #FFA500;
 }
-
 
 .accordion-header {
     font-family: 'Share Tech Mono', monospace;
 
 }
 
+.accordion-body {
+    background-color: white;
+    padding: auto;
+    margin: auto;
+    color: black;
+}
+
+.gamecase {
+    width: 8rem;
+}
+
 /****************** This below is for ACCORDION items END *********************/
-
-
-
-
-
-
-
-
 
 
 
@@ -107,9 +141,14 @@ footer {
     margin: auto;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
+    font-size: 1em;
+    color: #f2f2f2;
+
 }
 
-h5 {
-    font-size: 1em;
-    color: #707070;
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
 }

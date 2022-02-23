@@ -1,5 +1,6 @@
 body {
     background-color: #f2f2f2;
+    color: orange;
 }
 
 
@@ -10,8 +11,8 @@ body {
       sm: 540px, 
       md: 720px,
       lg: 960px,
-      xl: 1140px,
-      xxl: 1320px
+      xl: 1200px,
+      xxl: 1600px
     );
 
 }

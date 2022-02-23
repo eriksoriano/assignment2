@@ -1,27 +1,53 @@
 
-
-
-.col {
-    background-color: #f2f2f2;
-    color: #707070;
+* {
+    /* font-family: 'Share Tech Mono', monospace; */
+    color: #f2f2f2;
 }
 
+.container {
+    background-color: #202020;
+
+}
+
+
+/****************** NAVIGATION STYLE START *********************/
+
+
+.nav {
+    /* background-color: #202020; */
+    color: #f2f2f2;
+
+}
+
+.nav-link {
+    color: #f2f2f2;
+
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+/****************** NAVIGATION STYLE END *********************/
 
 
 /****************** This below is for the carousel items *********************/
 
 .carousel-item {
-/*     height: 30rem; */
+    height: fit-content
     
 }
 
 .carousel-caption {
     align-content: center;
-    font-size: larger;
+    font-size: medium;
+    margin: auto;
+    padding: 1rem;
     
     background-color: black;
-    border: 1px solid;
-    opacity: 0.6;
+    border: 0.5px solid;
+    border-radius: 2rem;
+    opacity: 0.5;
 
 }
 
@@ -30,3 +56,60 @@
     text-shadow: black;
 }
     
+
+
+/****************** This below is for ACCORDION items START *********************/
+
+
+.accordion {
+    background-color: orange;
+    padding: 2em;
+
+}
+
+
+.accordion-item {
+    background-color: #202020;
+    margin: auto;
+}
+
+.accordion-button {
+    font-weight: bold;
+}
+
+.accordion-button:active {
+    color: orange;
+}
+
+
+.accordion-header {
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+/****************** This below is for ACCORDION items END *********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    padding: 3rem;
+    margin: auto;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h5 {
+    font-size: 1em;
+    color: #707070;
+}

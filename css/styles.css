@@ -5,12 +5,14 @@ body {
 
 
 .container {
-    background-color: #202020;
-/*     padding: 1rem; */
+    width: 100%;
  
 }
 
-
+.container2 {
+    background-color: #202020;
+    padding: 1em;
+}
 
 p {
     font-size: 1em;

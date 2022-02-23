@@ -7,14 +7,7 @@ body {
 .container {
     background-color: #202020;
 /*     padding: 1rem; */
-    $container-max-widths: (
-      sm: 540px, 
-      md: 720px,
-      lg: 960px,
-      xl: 1200px,
-      xxl: 1600px
-    );
-
+ 
 }
 
 
@@ -89,7 +82,7 @@ p {
     
 .carousel {
     /* background-color: aqua; */
-/*     margin: 2rem; */
+    margin: 2rem;
 }
 
 

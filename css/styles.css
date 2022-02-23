@@ -6,14 +6,26 @@ body {
 .container {
     background-color: #202020;
     padding: 1rem;
-    max-width: 1200px;
+    $container-max-widths: (
+      sm: 540px, 
+      md: 720px,
+      lg: 960px,
+      xl: 1140px,
+      xxl: 1320px
+    );
 
 }
+
+
 
 p {
     font-size: 1em;
     font-weight: bold;
 }
+
+
+
+
 .about-cont {
     background-color: #FFA500;
     color: #202020;
@@ -22,6 +34,7 @@ p {
     text-align: center;
     /* font-family: 'Share Tech Mono', monospace */
 }
+
 
 /****************** NAVIGATION STYLE START *********************/
 

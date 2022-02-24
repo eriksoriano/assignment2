@@ -6,6 +6,8 @@ h5 {
     text-align: center;
     font-weight: bolder;
 }
+
+
 .container {
     width: 100%;
     /* padding: 0.5em; */
@@ -31,7 +33,6 @@ p {
     padding: 4rem;
     /* margin: 2em; */
     text-align: center;
-    /* font-family: 'Share Tech Mono', monospace */
 }
 
 
@@ -41,15 +42,20 @@ p {
     box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
 }
 
+.navbar-custom {
+    background-color: #ffa600;
+    padding: 1rem;
+}
 .navbar-brand {
     font-family: 'Share Tech Mono', monospace;
 }
 
 .navbar {
-    @media (min-width: 576px);
+    /* @media (min-width: 576px); */
     padding-top: 1.2rem;
     /* padding-bottom: 1.2rem; */
     font-family: 'Share Tech Mono', monospace;
+
 
 }
 
@@ -59,6 +65,7 @@ p {
     right: 0;
     left: 0;
     /* z-index: 1030; */
+
 }
 
 
@@ -66,6 +73,8 @@ p {
 
 .navbar-nav {
     color: #f2f2f2;
+    /* background-color: #ffa600; */
+
 
 }
 
@@ -86,16 +95,21 @@ p {
     box-sizing: border-box;
 }
 
+
 .carousel-caption {
     align-content: center;
-    font-size: medium;
+    /* font-size: medium; */
     margin: auto;
     padding: 1rem;
     
-    background-color: black;
-    border: 0.5px solid;
+    background-color:#00000090;
+    /* border: 0.5px solid; */
     border-radius: 2rem;
-    opacity: 0.7;
+    /* opacity: 0.5; */
+
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
 
 }
 
@@ -166,9 +180,10 @@ p {
 
 /****************** This below is for ACCORDION items END *********************/
 
-.text-info {
+.text-info2 {
     text-align: center;
     color: #202020;
+    font-family: 'Share Tech Mono', monospace
 }
 
 
@@ -180,11 +195,25 @@ p {
 }
 
 
-.card-img {
+.card {
+    /* margin: 1em; */
+    background-color: rgb(255, 196, 86);
     box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
 
+    padding: 1rem;
 }
 
+.card-title {
+    font-family: 'Share Tech Mono', monospace
+}
+
+
+
+.card-text {
+    font-size: 12px;
+    text-align: justify;
+    padding: inherit;
+}
 
 footer {
     background-color: black;

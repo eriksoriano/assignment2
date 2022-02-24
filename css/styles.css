@@ -2,12 +2,12 @@
 
 .container {
     width: 100%;
- 
+    /* padding: 0.5em; */
+    background-color: #ffa600;
 }
 
 .container2 {
     background-color: #202020;
-    /* padding: 1em; */
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 
 
 .about-cont {
-    background-color: #ffa600;
+    background-color: #ffcb77;
     color: #202020;
     padding: 4rem;
     /* margin: 2em; */
@@ -38,7 +38,7 @@ p {
 /* @media (min-width: 576px) */
 .navbar {
     padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    /* padding-bottom: 1.2rem; */
     font-family: 'Share Tech Mono', monospace;
 
 }
@@ -48,24 +48,24 @@ p {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
+    /* z-index: 1030; */
 }
 
 
 
 
-.nav-link {
+.navbar-nav {
     color: #f2f2f2;
 
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     color: #FFA500;
 }
 
 .nav-link.active {
     color: greenyellow;
-}
+} */
 
 /****************** NAVIGATION STYLE END *********************/
 
@@ -112,20 +112,24 @@ p {
 
 .accordion {
     background-color: #FFA500;
-    padding: 2em;
-
+    padding: 3rem;
 }
 
 
 .accordion-item {
     background-color: #202020;
-    margin: auto;
+    /* margin: auto; */
+    border: 0.5px solid;
+    color: #f2f2f2;
+
 }
 
 .accordion-button {
     font-weight: bold;
-    background-color: #000000;
+    background-color: #202020;
     color: #f2f2f2;
+    /* border: 0.5px solid; */
+
 }
 
 
@@ -139,8 +143,9 @@ p {
     background-color: white;
     padding: auto;
     margin: auto;
-    color: black;
+    color: #202020;
 }
+
 
 .gamecase {
     width: 8rem;

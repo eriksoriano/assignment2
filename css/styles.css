@@ -16,6 +16,7 @@ h5 {
 
 .container2 {
     background-color: #202020;
+    max-width: fit-content;
 }
 
 p {
@@ -138,13 +139,13 @@ p {
 
 
 .accordion {
-    background-color: #dbdbdb;
+    background-color: rgb(255, 196, 86);
     padding: 3rem;
 }
 
 
 .accordion-item {
-    background-color: #202020;
+    /* background-color: #202020; */
     /* margin: auto; */
     border: 0.5px solid;
     color: #f2f2f2;
@@ -167,10 +168,11 @@ p {
 }
 
 .accordion-body {
-    background-color: white;
+    /* background-color: white; */
     padding: auto;
     margin: auto;
     color: #202020;
+    text-align: center;
 }
 
 

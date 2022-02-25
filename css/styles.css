@@ -222,15 +222,15 @@ h5 {
 .accordion-item {
     /* background-color: #202020; */
     /* margin: auto; */
-    border: 0.5px solid;
-    color: #f2f2f2;
+    border: 2px solid;
+    color: greenyellow;
 
 }
 
 .accordion-button {
     font-weight: bold;
     background-color: black;
-    color: #ffc75e;
+    color: white;
     /* border: 0.5px solid; */
 
 }
@@ -279,6 +279,9 @@ h5 {
     /* padding: auto; */
     background-color: rgb(255, 196, 86);
     box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+    border: 2px solid;
+    border-color: greenyellow;
+    /* align-content: center; */
 }
 
 .card-title {
@@ -304,6 +307,21 @@ h5 {
     /* align-content: center; */
 }
 
+
+.fa-solid {
+    /* background-color: #202020; */
+    color: black;
+    padding: 0.4em;
+    /* margin: 0.5rem; */
+    border-radius: 0.5rem;
+
+}
+
+.icons {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 footer {
     background-color: black;
     padding: 3rem;

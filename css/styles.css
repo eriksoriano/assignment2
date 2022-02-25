@@ -2,11 +2,6 @@ body {
     background-color:#ffa600;
 }
 
-h5 {
-    text-align: center;
-    font-weight: bolder;
-}
-
 
 .container {
     width: 100%;
@@ -129,6 +124,13 @@ p {
     font-family: 'Share Tech Mono', monospace;
 
 }
+
+
+h5 {
+    text-align: center;
+    font-weight: bolder;
+}
+
 /****************** CAROUSEL STYLE END *********************/
 
 
@@ -309,7 +311,7 @@ footer {
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1em;
-    color: #707070;
+    color: white;
 
 }
 

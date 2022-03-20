@@ -129,7 +129,7 @@ console.log(selecClass)
 /* These 2 do the same thing. querySelector is the newer way to do it. 
 There is a difference though: getElementsByTagName will select all instances
 and querySelector will only select the first one. */
-const selectTagName = document.getElementsByTagName('p')
+const selectTagName = document.getElementsByTagName('p') // basically same as line 142
 const selectTag = document.querySelector('p')
 console.log(selectTagName)
 console.log(selectTag)
@@ -163,7 +163,7 @@ const myArrayLong = [
     "item5"
 ]
 console.log(myArrayLong)
-// You can create arrays made up of other arrays 
+// You can create arrays made up of other arrays // important for my mobile class
 const arrayArrays = [
     [1, 2, 3],
     [1, 2, 3]

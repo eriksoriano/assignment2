@@ -373,10 +373,14 @@ footer {
 .clean-block.clean-hero {
     background-image: url('../img/samusfaceleft.jpg');
     background-size: cover;
-    background-color: red;
     position: sticky;
     background-repeat: no-repeat;
-    height: 500px;
-    
+    height: 600px;
+}
 
+.text {
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    text-align: center;
+    align-content: center;
 }

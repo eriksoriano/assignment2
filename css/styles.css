@@ -6,10 +6,37 @@ body {
 
 .section1 {
     background-color:#ffa600;
-    max-width: fit-content;
-    /* margin: auto; */
 
 }
+
+.section2 {
+    background-color: rgb(255, 192, 75);
+    /* padding: 2rem; */
+}
+
+.section3 {
+    background-color: black;
+    padding: 3rem;
+}
+
+.section4 {
+    background-color: rgb(255, 196, 86);
+    padding: 5rem;
+
+}
+
+.section5 {
+    background-color:#ffa600;
+    padding: 2rem;
+}
+
+.section6 {
+    background-color: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
 
 p {
     font-size: 1em;
@@ -149,14 +176,6 @@ h4 {
     text-align: center;
 }
 
-.section2 {
-    background-color: rgb(255, 192, 75);
-    padding: 2rem;
-    align-content: center;
-
-
-}
-
 
 .text-pop-up-top {
 	-webkit-animation: text-pop-up-top 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
@@ -204,10 +223,6 @@ h4 {
 
 /****************** samus and zero suit samus section *********************/
 
-.section3 {
-    background-color: black;
-    padding: 3rem;
-}
 
 .sect3-text {
     /* background-color: #202020; */
@@ -227,13 +242,6 @@ h4 {
 
 
 /****************** This below is for ACCORDION items START *********************/
-
-
-.accordion {
-    /* background-color: rgb(255, 196, 86); */
-    background-color: rgb(255, 192, 75);
-    padding: 3rem;
-}
 
 
 .accordion-item {
@@ -355,4 +363,20 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 12px;
+}
+
+
+
+
+/* Assignment 1 Styles  */
+/* Hero Image  */
+.clean-block.clean-hero {
+    background-image: url('../img/samusfaceleft.jpg');
+    background-size: cover;
+    background-color: red;
+    position: sticky;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+
 }

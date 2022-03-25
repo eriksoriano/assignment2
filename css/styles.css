@@ -286,8 +286,8 @@ h4 {
 
 
 .gamecase {
-    width: 20rem;
-    /* margin: 1rem; */
+    width: 15rem;
+    margin: auto;
     padding: 2rem;
 }
 
@@ -327,7 +327,7 @@ h4 {
     max-width: 20rem;
     margin: auto;
     padding: auto;
-    align-content: center;
+    /* align-content: center; */
 }
 
 

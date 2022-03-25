@@ -150,7 +150,7 @@ h4 {
 }
 
 .section2 {
-    background-color: rgb(255, 194, 81);
+    background-color: rgb(255, 192, 75);
     padding: 2rem;
     align-content: center;
 
@@ -177,7 +177,7 @@ h4 {
               transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
               transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 greenyellow, 0 2px 0 greenyellow, 0 3px 0 greenyellow, 0 4px 0 greenyellow, 0 5px 0 greenyellow, 0 6px 0 greenyellow, 0 7px 0 greenyellow, 0 8px 0 greenyellow, 0 9px 0 greenyellow, 0 50px 30px rgba(0, 0, 0, 1);
+      text-shadow: 0 1px 0 greenyellow, 0 2px 0 greenyellow, 0 3px 0 greenyellow, 0 4px 0 greenyellow, 0 5px 0 greenyellow, 0 6px 0 greenyellow, 0 7px 0 greenyellow, 0 8px 0 greenyellow, 0 9px 0 greenyellow, 0 50px 30px rgba(0, 0, 0, 0);
     }
   }
   @keyframes text-pop-up-top {
@@ -193,8 +193,8 @@ h4 {
               transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
               transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 greenyellow, 0 2px 0 greenyellow, 0 3px 0 greenyellow, 0 4px 0 greenyellow, 0 5px 0 greenyellow, 0 6px 0 greenyellow, 0 7px 0 greenyellow, 0 8px 0 greenyellow, 0 9px 0 greenyellow, 0 50px 30px rgba(0, 0, 0, 0.3);
-    }
+              text-shadow: 0 1px 0 greenyellow, 0 2px 0 greenyellow, 0 3px 0 greenyellow, 0 4px 0 greenyellow, 0 5px 0 greenyellow, 0 6px 0 greenyellow, 0 7px 0 greenyellow, 0 8px 0 greenyellow, 0 9px 0 greenyellow, 0 50px 30px rgba(0, 0, 0, 0);
+            }
   }
   
 
@@ -204,24 +204,24 @@ h4 {
 
 /****************** samus and zero suit samus section *********************/
 
-
-.sect3-text {
-    color: #f2f2f2;
-    font-family: 'Share Tech Mono', monospace;
+.section3 {
+    background-color: black;
+    padding: 3rem;
 }
 
+.sect3-text {
+    /* background-color: #202020; */
+    color: #f2f2f2;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+}
 
 
 
 /****************** samus and zero suit samus section *********************/
 
 
-.section3 {
-    background-color: #202020;
-    padding: 2rem;
-    align-content: center;
 
-}
 
 
 
@@ -230,7 +230,8 @@ h4 {
 
 
 .accordion {
-    background-color: rgb(255, 196, 86);
+    /* background-color: rgb(255, 196, 86); */
+    background-color: rgb(255, 192, 75);
     padding: 3rem;
 }
 

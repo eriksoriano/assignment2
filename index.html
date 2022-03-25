@@ -38,9 +38,10 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">SAMUS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#suits">SUITS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#seeGames">GAMES</a></li>
                     <li class="nav-item"><a class="nav-link" href="#villains">VILLAINS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://eriksoriano.github.io/metroidweather/">SPACE WEATHER</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://eriksoriano.github.io/metroidprimeweather/">SPACE WEATHER</a></li>
                 </ul>
             </div>
         </div>
@@ -146,31 +147,65 @@
     
   <!--   ****************************************************************************************   -->
   <!--   ****************************************************************************************   -->
-  <section class="clean-block about-us section3">  <!-- section3 - about samus aran --> 
-    <div>
-      <p class="sect3-text">The two sides of Samus: Power Suit vs. Zero Suit</p>
-      <p class="sect3-text">Hover over an image to read more about each side</p>
+  <section class="clean-block about-us" id="suits">  <!-- section3 - about samus aran --> 
+    <div class="section3">
+      <br><br><br>
+      <h2 class="sect3-text">TYPES OF SPACE SUITS</h2>
+      <p class="sect3-text">(Hover over an image to read more about each side)</p>
+      <br><br>
       <div class="row justify-content">
-        <div class="col-md-6 col-lg-6"> <!-- normal samus photo -->
+        <div class="col-sm-6 col-lg-3 text-center samus-bck"> <!-- normal samus photo -->
+            <p class="sect3-text">POWER SUIT SAMUS</p>
           <picture>
-              <source media="(max-width: 799px)" srcset="img/samustall.web" type="image/webp">
-              <source media="(max-width: 799px)" srcset="img/samustall.web" type="image/webp">
-              <source media="(min-width: 800px)" srcset="img/samustall.web" type="image/webp">
-              <source media="(min-width: 800px)" srcset="img/samustall.web" type="image/webp">
-          </picture>
-          <img class="card-img-top" src="img/samustall.webp" alt="UX Research: Card Sorting Report by Erik Soriano">
-
+            <source media="(max-width: 799px)" srcset="img\samustall.webp" type="image/webp">
+            <source media="(max-width: 799px)" srcset="img\samustall.png" type="image/png">
+            <source media="(min-width: 800px)" srcset="img\samustall.webp" type="image/webp">
+            <source media="(min-width: 800px)" srcset="img\samustall.png" type="image/png">
+            <img class="card-img-top" src="img/samustall.png" alt="Samus Aran Standing on a transparent background">
+           </picture>
+           <br><br>
         </div> <!-- normal samus photo -->
 
-          <div class="col-md-6 col-lg-6"> <!-- zero suit samus photo -->
+        <div class="col-sm-6 col-lg-3 text-center  samus-bck"> <!-- zero suit samus photo -->
+          <p class="sect3-text">ZERO SUIT SAMUS</p>
             <picture>
-                <source media="(max-width: 799px)" srcset="images/thumbnails/musico.png" type="image/png">
-                <source media="(max-width: 799px)" srcset="images/thumbnails/musico.webp" type="image/webp">
-                <source media="(min-width: 800px)" srcset="images/thumbnails/musico.png" type="image/png">
-                <source media="(min-width: 800px)" srcset="images/thumbnails/musico.webp" type="image/webp">
-                <a href="musicoapp.html"><img class="card-img-top" src="img\zerosuittall.webp" alt="musico Music App by Erik Soriano"></a>
-            </picture>
-          </div> <!-- zero suit samus photo -->
+              <source media="(max-width: 799px)" srcset="img/zerosuittall.webp" type="image/webp">
+              <source media="(max-width: 799px)" srcset="img/zerosuittall.png" type="image/png">
+              <source media="(min-width: 800px)" srcset="img/zerosuittall.webp" type="image/webp">
+              <source media="(min-width: 800px)" srcset="img/zerosuittall.png" type="image/png">
+              <img class="card-img-top" src="img/zerosuittall.png" alt="Samus Aran Standing on a transparent background">
+          </picture>
+          <br><br>
+
+        </div> <!-- zero suit samus photo -->
+
+        <div class="col-sm-6 col-lg-3 text-center  samus-bck"> <!-- light suit samus photo -->
+          <p class="sect3-text">LIGHT SUIT SAMUS</p>
+            <picture>
+              <source media="(max-width: 799px)" srcset="img/lightsuit.webp" type="image/webp">
+              <source media="(max-width: 799px)" srcset="img/lightsuit.png" type="image/png">
+              <source media="(min-width: 800px)" srcset="img/lightsuit.webp" type="image/webp">
+              <source media="(min-width: 800px)" srcset="img/lightsuit.png" type="image/png">
+              <img class="card-img-top" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background">
+          </picture>
+          <br><br>
+
+        </div> <!-- light suit samus photo -->
+
+        <div class="col-sm-6 col-lg-3 text-center  samus-bck"> <!-- dark suit samus photo -->
+          <p class="sect3-text">DARK SUIT SAMUS</p>
+            <picture>
+              <source media="(max-width: 799px)" srcset="img/darksuit.webp" type="image/webp">
+              <source media="(max-width: 799px)" srcset="img/darksuit.png" type="image/png">
+              <source media="(min-width: 800px)" srcset="img/darksuit.webp" type="image/webp">
+              <source media="(min-width: 800px)" srcset="img/darksuit.png" type="image/png">
+              <img class="card-img-top" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background">
+          </picture>
+          <br><br>
+
+        </div> <!-- dark suit samus photo -->
+
+
       </div>
     </div> 
   </section>  <!-- section3 - about samus aran --> 

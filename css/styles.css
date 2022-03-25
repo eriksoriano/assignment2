@@ -11,7 +11,7 @@ body {
 
 .section2 {
     background-color: rgb(255, 192, 75);
-    /* padding: 2rem; */
+    padding: 2rem;
 }
 
 .section3 {
@@ -21,7 +21,7 @@ body {
 
 .section4 {
     background-color: rgb(255, 196, 86);
-    padding: 5rem;
+    padding: 3rem;
 
 }
 
@@ -134,8 +134,8 @@ p {
     
 .carousel {
     /* background-color: aqua; */
-    margin: 2rem;
-    border: 2px solid;
+    margin: 1rem;
+    border: 4px solid;
     border-color: greenyellow;
 
 }
@@ -161,7 +161,7 @@ h4 {
 
 
 .samus-aran {
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: 'Share Tech Mono', monospace;
     color: black;
 
@@ -172,7 +172,7 @@ h4 {
     /* background-color: #ffa600; */
     color: #202020;
     padding: auto;
-    margin: 3rem;
+    /* margin: 3rem; */
     text-align: center;
 }
 
@@ -247,7 +247,7 @@ h4 {
 .accordion-item {
     /* background-color: #202020; */
     /* margin: auto; */
-    border: 2px solid;
+    border: 3px solid;
     color: greenyellow;
 
 }
@@ -268,7 +268,7 @@ h4 {
 }
 
 .accordion-body {
-    /* background-color: white; */
+    /* background-color: #f2f2f2; */
     padding: auto;
     margin: auto;
     color: #202020;
@@ -277,34 +277,23 @@ h4 {
 
 
 .gamecase {
-    width: 30%;
+    width: 20rem;
     margin: 1rem;
     /* padding: 2rem; */
 }
 
 /****************** This below is for ACCORDION items END *********************/
 
-.text-info2 {
-    text-align: center;
-    color: black;
-    font-family: 'Share Tech Mono', monospace
-}
 
-
-
-.container3 {
-    background-color: #ffa600;
-    padding: 1rem;
-
-}
 
 
 .card {
     margin: 0.5em;
-    /* padding: auto; */
-    background-color: rgb(255, 196, 86);
+    padding: 0.5em;
+    /* background-color: rgb(255, 196, 86); */
+    background-color: orange;
     box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
-    border: 2px solid;
+    border: 3px solid;
     border-color: greenyellow;
     /* align-content: center; */
 }
@@ -318,15 +307,15 @@ h4 {
 
 
 .card-text {
-    font-size: 11px;
+    font-size: 0.8rem;
     text-align:justify;
-    margin: 10px;
+    /* margin: 10px; */
     /* padding: inherit; */
 }
 
 .card-img-top {
     /* background-color: green; */
-    max-width: 15rem;
+    max-width: 20rem;
     margin: auto;
     padding: auto;
     /* align-content: center; */
@@ -336,7 +325,7 @@ h4 {
 .fa-solid {
     /* background-color: #202020; */
     color: black;
-    padding: 0.4em;
+    padding: 0.5em;
     /* margin: 0.5rem; */
     border-radius: 0.5rem;
 
@@ -366,7 +355,7 @@ footer {
 }
 
 
-
+/****************** section 6 the hero image linkin to metroid prime weather app *********************/
 
 /* Assignment 1 Styles  */
 /* Hero Image  */
@@ -384,3 +373,6 @@ footer {
     text-align: center;
     align-content: center;
 }
+
+
+/****************** section 6 the hero image linkin to metroid prime weather app *********************/

@@ -26,12 +26,12 @@
     <!-- my own styles sheet below --> 
     <link rel="stylesheet" href="css\styles.css">
     
-    <title>Metroid Fanpage by Erik Soriano</title>
+    <title>Erik Soriano :: Metroid Fanpage</title>
 </head>
 <body>
-  <div class="container2">
-        
-<!-- ****************** Testing the mobile nav bar with hamburger icon here ******************** -->
+<div class="section1"> <!-- section1 - carousel --> 
+
+  <!-- ****************** Testing the mobile nav bar with hamburger icon here ******************** -->
       <nav class="navbar navbar-custom navbar-light navbar-expand-lg fixed-top clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="#">METROID_FANPAGE</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -46,7 +46,7 @@
         </div>
         </nav>
         <br> <br> <br>
-<!-- ****************** Testing the mobile nav bar with hamburger icon here ******************** -->   
+  <!-- ****************** Testing the mobile nav bar with hamburger icon here ******************** -->   
 
     <!-- ******** carousel below instead of hero image ****************************-->
 
@@ -120,6 +120,10 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+</div> <!-- section1 - carousel --> 
+
+
+  <section class="section2"> <!-- section2 - about samus aran --> 
     <div class="about-cont" id="about">
       <br><br><br><br>
       <h1>Her Name is <br>
@@ -138,288 +142,319 @@
       </p>
       <br>
     </div>
+  </section> <!-- section2 - about samus aran --> 
     
-<!--   ****************************************************************************************   -->
-<!--   ****************************************************************************************   -->
+  <!--   ****************************************************************************************   -->
+  <!--   ****************************************************************************************   -->
+  <section class="clean-block about-us section3">  <!-- section3 - about samus aran --> 
+    <div>
+      <p class="sect3-text">The two sides of Samus: Power Suit vs. Zero Suit</p>
+      <p class="sect3-text">Hover over an image to read more about each side</p>
+      <div class="row justify-content">
+        <div class="col-md-6 col-lg-6"> <!-- normal samus photo -->
+          <picture>
+              <source media="(max-width: 799px)" srcset="img/samustall.web" type="image/webp">
+              <source media="(max-width: 799px)" srcset="img/samustall.web" type="image/webp">
+              <source media="(min-width: 800px)" srcset="img/samustall.web" type="image/webp">
+              <source media="(min-width: 800px)" srcset="img/samustall.web" type="image/webp">
+          </picture>
+          <img class="card-img-top" src="img/samustall.webp" alt="UX Research: Card Sorting Report by Erik Soriano">
 
-<div class="accordion" id="accordionExample">
-  <hr>
-  <h4 id="seeGames">[ See below for the list of the most recent Metroid games released ]</h4>
-  <hr>
-  <br>
-<!-- **** ACCORDION ONE START **** -->
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-        METROID DREAD (2021)
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p>The newest entry in the series.
-          It features robots called EMMI that follow the
-          player around and kill them. Samus meets a new enemy called Raven Beak
-          who will stop at nothing to destroy her and steal her DNA for his sinister plans.
-        </p>
-        <div>
-          <img class="gamecase" src="img\cases\dread-case.jpg" alt="Metroid Dread Game Artwork">
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- **** ACCORDION ONE END **** -->
-  
-    <!-- **** ACCORDION TWO START **** -->
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        METROID: SAMUS RETURNS (2017)
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p>A remake of the second entry in the series.
-          Featuring better graphics, new mechanics,
-          enhanced gameplay and a more sinister setting. In this game, Samus must
-          exterminate the Metroid species, but it's not as easy as it seems.
-        </p>
-        <div>
-          <img class="gamecase" src="img\cases\return-case.jpg" alt="Metroid Dread Game Artwork">
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- **** ACCORDION TWO END **** -->
-    
-    <!-- **** ACCORDION THREE START **** -->
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        METROID PRIME: FEDERATION FORCE (2016)
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p>Federation Force is the first Metroid game where the player controls a
-          Marine of the Galactic Federation. Within the context of the Metroid series,
-          the Galactic Federation is a law-enforcing organization where soldiers are divided
-          into platoons and go on planetary missions, which is how Federation Force's campaign is
-          organized. The game features previously established aliens as enemies, including the titular
-          jellyfish-like Metroids and Space Pirates.
-        </p>
-        <div>
-          <img class="gamecase" src="img\cases\fede-case.jpg" alt="Metroid Prime: Federation Force Artwork">
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- **** ACCORDION THREE END **** -->
-    
-    <!-- **** ACCORDION FOUR START **** -->
- <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        METROID: OTHER M (2010)
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p>Metroid: Other M takes place between Super Metroid and Metroid Fusion.
-          After awakening in a Galactic Federation facility, Samus Aran departs for
-          space and picks up a distress signal from a derelict vessel known as the "Bottle Ship".
-          Soon after landing, Samus encounters the Galactic Federation 07th Platoon; among the Platoon
-          are Anthony Higgs, an old friend from her military career, and her commanding officer Adam Malkovich.
-        </p>
-        <div>
-          <img class="gamecase" src="img\cases\otherm-case.png" alt="Metroid: Other M Artwork">
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- **** ACCORDION FOUR END **** -->
-    
-    <!-- **** ACCORDION FIVE START **** -->
- <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFive">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        METROID PRIME 3: CORRUPTION (2007)
-      </button>
-    </h2>
-    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p>Metroid Prime 3: Corruption is a first-person action-adventure game.
-          The player controls the protagonist, Samus Aran, using the Wii Remote
-          and Nunchuk devices. The Nunchuk enables the player to perform actions
-          such as moving Samus and locking on to enemies and targets. The Wii Remote
-          allows the player to execute actions such as jumping, aiming, and firing weapons.
-        </p>
-        <div>
-          <img class="gamecase" src="img\cases\prime3-case.jpg" alt="Metroid Prime 3: Corruption Artwork">
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- **** ACCORDION FIVE END **** -->
+        </div> <!-- normal samus photo -->
 
-    <!-- **** ACCORDION SIX START **** -->
- <div class="accordion-item">
-  <h2 class="accordion-header" id="headingSix">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-      METROID PRIME 2: ECHOES (2004)
-    </button>
-  </h2>
-  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-    <div class="accordion-body">
-      <p>The story of Echoes follows bounty hunter Samus Aran after she is sent to rescue
-        Galactic Federation Marines from a ship near Aether, a planet inhabited by a race
-        known as the Luminoth. She discovers that the troops were slaughtered by the Ing,
-        a hostile race that came from an alternate dimension of Aether. Samus must travel
-        to four temples to ensure the destruction of the Ing, while battling the Ing, wild
-        creatures, Space Pirates, and her mysterious doppelgänger Dark Samus.
-      </p>
-      <div>
-        <img class="gamecase" src="img\cases\prime2-case.jpg" alt="Metroid Prime 2: Echoes Artwork">
+          <div class="col-md-6 col-lg-6"> <!-- zero suit samus photo -->
+            <picture>
+                <source media="(max-width: 799px)" srcset="images/thumbnails/musico.png" type="image/png">
+                <source media="(max-width: 799px)" srcset="images/thumbnails/musico.webp" type="image/webp">
+                <source media="(min-width: 800px)" srcset="images/thumbnails/musico.png" type="image/png">
+                <source media="(min-width: 800px)" srcset="images/thumbnails/musico.webp" type="image/webp">
+                <a href="musicoapp.html"><img class="card-img-top" src="img\zerosuittall.webp" alt="musico Music App by Erik Soriano"></a>
+            </picture>
+          </div> <!-- zero suit samus photo -->
       </div>
-    </div>
-  </div>
-</div>
-  <!-- **** ACCORDION SIX END **** -->
-    <!-- **** ACCORDION SEVEN START **** -->
- <div class="accordion-item">
-  <h2 class="accordion-header" id="headingSeven">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-      METROID PRIME (2002)
-    </button>
-  </h2>
-  <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-    <div class="accordion-body">
-      <p>Metroid Prime is the first game in the Metroid Prime saga, which takes place between
-        the original Metroid and Metroid II: Return of Samus. Like previous games in the series,
-        Metroid Prime has a science fiction setting in which players control the bounty hunter
-        and series protagonist, Samus Aran. The story follows Samus as she battles the Space Pirates
-        and their biological experiments on the planet Tallon IV.
-      </p>
-      <div>
-        <img class="gamecase" src="img\cases\prime-case.jpg" alt="Metroid Prime Artwork">
-      </div>
-    </div>
-  </div>
-</div>
-  <!-- **** ACCORDION SEVEN END **** -->
-  <!-- **** ACCORDION 8 START **** -->
- <div class="accordion-item">
-  <h2 class="accordion-header" id="headingEight">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-      METROID FUSION (2002)
-    </button>
-  </h2>
-  <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-    <div class="accordion-body">
-      <p>Metroid Fusion is an action-adventure game in which the player controls Samus Aran.
-        Like previous games in the series, Fusion is set in a large open-ended world with elevators
-        that connect regions, which each in turn contains rooms separated by doors.
-      </p>
-      <div>
-        <img class="gamecase" src="img\cases\fusion-case.jpg" alt="Metroid Fusion Artwork">
-      </div>
-    </div>
-  </div>
-</div>
-  <!-- **** ACCORDION 8 END **** -->
-  <!-- **** ACCORDION 9 START **** -->
- <div class="accordion-item">
-  <h2 class="accordion-header" id="heading9">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-      SUPER METROID (1994)
-    </button>
-  </h2>
-  <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
-    <div class="accordion-body">
-      <p>Super Metroid is a 2D, side-scrolling action-adventure game, which primarily takes place on the
-        fictional planet Zebes from the original game—a large, open-ended world with areas connected by
-        doors and elevators. The player controls Samus Aran as she searches the planet for a Metroid that
-        has been stolen by Ridley, the leader of the Space Pirates.
-      <div>
-        <img class="gamecase" src="img\cases\superm.jpg" alt="Super Metroid Artwork">
-      </div>
-    </div>
-  </div>
-</div>
-  <!-- **** ACCORDION 9 END **** -->
-    
-    <!-- ***************** END OF ALL ACCORDION DIVS ************** -->   
-</div>   
+    </div> 
+  </section>  <!-- section3 - about samus aran --> 
 
-        <!--   ****************************************************************************************   -->
-        <!--   ****************************************************************************************   -->
+  <!--   ****************************************************************************************   -->
+  <!--   ****************************************************************************************   -->
 
-<section class="clean-block about-us" id="villains">
-  <div class="container3">
-      <div class="block-heading">
-        <br><br><br><br>
-          <h2 class="text-info2">MAIN VILLAINS</h2>
-          <p>Some of the most vile villains in the entire universe. Samus has faced them
-            countless of times throughtout her adventures through space.
+  <div class="accordion" id="accordionExample">
+    <hr>
+    <h4 id="seeGames">[ See below for the list of the most recent Metroid games released ]</h4>
+    <hr>
+    <br>
+  <!-- **** ACCORDION ONE START **** -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          METROID DREAD (2021)
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>The newest entry in the series.
+            It features robots called EMMI that follow the
+            player around and kill them. Samus meets a new enemy called Raven Beak
+            who will stop at nothing to destroy her and steal her DNA for his sinister plans.
           </p>
+          <div>
+            <img class="gamecase" src="img\cases\dread-case.jpg" alt="Metroid Dread Game Artwork">
+          </div>
+        </div>
       </div>
-      <div class="row justify-content-center">
-          <div class="col-sm-6 col-lg-4">
-              <div class="card text-center clean-card shadow-drop-2-center">
-                <picture>
-                  <source media="(max-width: 799px)" srcset="img\villains\ridley.png" type="image/png">
-                  <source media="(max-width: 799px)" srcset="img\villains\ridley.webp" type="image/webp">
-                  <source media="(min-width: 800px)" srcset="img\villains\ridley.png" type="image/png">
-                  <source media="(min-width: 800px)" srcset="img\villains\ridley.webp" type="image/webp">
-                  <img class="card-img-top" src="img\villains\ridley.webp" alt="A giant purple dragon named Ridley that is Samus' nemesis">
-                </picture>      
-                  <div class="card-body info">
-                      <h4 class="card-title">[RIDLEY]</h4>
-                      <p class="card-text">Is a high-ranking Space Pirate, the archenemy of Samus Aran,
-                        and one of the most common recurring characters and antagonists in the Metroid
-                        series, appearing in most of the games.</p>
-                        <div class="icons"><a href="#"  alt="Dragon Icon"><i class="fa-solid fa-dragon" alt="Dragon Icon"></i></a>DRAGON<a href="#"  alt="Skull Icon"><i class="fa-solid fa-skull-crossbones" alt="Skull Icon"></i></a>EVIL<a href="#"  alt="Gamepad Icon"><i class="fa-solid fa-gamepad" alt="Gamepad Icon"></i></a>GAMER</div>
-                      </div>
-              </div>
+    </div>
+      <!-- **** ACCORDION ONE END **** -->
+    
+      <!-- **** ACCORDION TWO START **** -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          METROID: SAMUS RETURNS (2017)
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>A remake of the second entry in the series.
+            Featuring better graphics, new mechanics,
+            enhanced gameplay and a more sinister setting. In this game, Samus must
+            exterminate the Metroid species, but it's not as easy as it seems.
+          </p>
+          <div>
+            <img class="gamecase" src="img\cases\return-case.jpg" alt="Metroid Dread Game Artwork">
           </div>
-          <div class="col-sm-6 col-lg-4">
-              <div class="card text-center clean-card"> 
-                <picture>
-                  <source media="(max-width: 799px)" srcset="img\villains\omega.png" type="image/png">
-                  <source media="(max-width: 799px)" srcset="img\villains\omega.webp" type="image/webp">
-                  <source media="(min-width: 800px)" srcset="img\villains\omega.png" type="image/png">
-                  <source media="(min-width: 800px)" srcset="img\villains\omega.webp" type="image/webp">
-                  <img class="card-img-top w-100 d-block" src="img\villains\omega.webp" alt="A giant reptilian monster that lives inside lava and acid pools">
-                </picture>      
-                  <div class="card-body info">
-                      <h4 class="card-title">[OMEGA PIRATE]</h4>
-                      <p class="card-text">Elite Pirate Upsilon, more commonly known as the Omega Pirate,
-                        was one of the most powerful Space Pirates ever created and had the potential to
-                        be a new standard for the Pirates.</p>
-                      <div class="icons"><a href="#"  alt="Virus Icon"><i class="fa-solid fa-virus" alt="Virus Icon"></i></a>VIRUS<a href="#"  alt="Skull Icon"><i class="fa-solid fa-skull-crossbones" alt="Skull Icon"></i></a>EVIL<a href="#"  alt="Gamepad Icon"><i class="fa-solid fa-gamepad" alt="Gamepad Icon"></i></a>GAMER</div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-lg-4">
-              <div class="card text-center clean-card">
-                <picture>
-                  <source media="(max-width: 799px)" srcset="img\villains\darksamus.png" type="image/png">
-                  <source media="(max-width: 799px)" srcset="img\villains\darksamus.webp" type="image/webp">
-                  <source media="(min-width: 800px)" srcset="img\villains\darksamus.png" type="image/png">
-                  <source media="(min-width: 800px)" srcset="img\villains\darksamus.webp" type="image/webp">
-                  <img class="card-img-top w-100 d-block" src="img\villains\darksamus.webp" alt="An evil twin of samus, cloaked in dark toxic matter called phazon">
-                </picture>      
-                  <div class="card-body info">
-                      <h4 class="card-title">[DARK SAMUS]</h4>
-                      <p class="card-text">Dark Samus is a being of Phazon created after the dying Metroid Prime
-                        absorbed Samus' Phazon Suit and her DNA. It had many battles with Samus during its search
-                        for Phazon on the planet Aether.</p>
-                      <div class="icons"><a href="#"  alt="Virus Icon"><i class="fa-solid fa-virus"></i></a>VIRUS<a href="#"  alt="Skull Icon"><i class="fa-solid fa-skull-crossbones"></i></a>EVIL<a href="#"  alt="Gamepad Icon"><i class="fa-solid fa-gamepad" alt="Gamepad Icon"></i></a>GAMER</div>
-                  </div>
-              </div>
-          </div>
+        </div>
       </div>
+    </div>
+      <!-- **** ACCORDION TWO END **** -->
+      
+      <!-- **** ACCORDION THREE START **** -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          METROID PRIME: FEDERATION FORCE (2016)
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Federation Force is the first Metroid game where the player controls a
+            Marine of the Galactic Federation. Within the context of the Metroid series,
+            the Galactic Federation is a law-enforcing organization where soldiers are divided
+            into platoons and go on planetary missions, which is how Federation Force's campaign is
+            organized. The game features previously established aliens as enemies, including the titular
+            jellyfish-like Metroids and Space Pirates.
+          </p>
+          <div>
+            <img class="gamecase" src="img\cases\fede-case.jpg" alt="Metroid Prime: Federation Force Artwork">
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- **** ACCORDION THREE END **** -->
+      
+      <!-- **** ACCORDION FOUR START **** -->
+  <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          METROID: OTHER M (2010)
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Metroid: Other M takes place between Super Metroid and Metroid Fusion.
+            After awakening in a Galactic Federation facility, Samus Aran departs for
+            space and picks up a distress signal from a derelict vessel known as the "Bottle Ship".
+            Soon after landing, Samus encounters the Galactic Federation 07th Platoon; among the Platoon
+            are Anthony Higgs, an old friend from her military career, and her commanding officer Adam Malkovich.
+          </p>
+          <div>
+            <img class="gamecase" src="img\cases\otherm-case.png" alt="Metroid: Other M Artwork">
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- **** ACCORDION FOUR END **** -->
+      
+      <!-- **** ACCORDION FIVE START **** -->
+  <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          METROID PRIME 3: CORRUPTION (2007)
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Metroid Prime 3: Corruption is a first-person action-adventure game.
+            The player controls the protagonist, Samus Aran, using the Wii Remote
+            and Nunchuk devices. The Nunchuk enables the player to perform actions
+            such as moving Samus and locking on to enemies and targets. The Wii Remote
+            allows the player to execute actions such as jumping, aiming, and firing weapons.
+          </p>
+          <div>
+            <img class="gamecase" src="img\cases\prime3-case.jpg" alt="Metroid Prime 3: Corruption Artwork">
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- **** ACCORDION FIVE END **** -->
+
+      <!-- **** ACCORDION SIX START **** -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        METROID PRIME 2: ECHOES (2004)
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>The story of Echoes follows bounty hunter Samus Aran after she is sent to rescue
+          Galactic Federation Marines from a ship near Aether, a planet inhabited by a race
+          known as the Luminoth. She discovers that the troops were slaughtered by the Ing,
+          a hostile race that came from an alternate dimension of Aether. Samus must travel
+          to four temples to ensure the destruction of the Ing, while battling the Ing, wild
+          creatures, Space Pirates, and her mysterious doppelgänger Dark Samus.
+        </p>
+        <div>
+          <img class="gamecase" src="img\cases\prime2-case.jpg" alt="Metroid Prime 2: Echoes Artwork">
+        </div>
+      </div>
+    </div>
   </div>
-</section>    
+    <!-- **** ACCORDION SIX END **** -->
+      <!-- **** ACCORDION SEVEN START **** -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        METROID PRIME (2002)
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Metroid Prime is the first game in the Metroid Prime saga, which takes place between
+          the original Metroid and Metroid II: Return of Samus. Like previous games in the series,
+          Metroid Prime has a science fiction setting in which players control the bounty hunter
+          and series protagonist, Samus Aran. The story follows Samus as she battles the Space Pirates
+          and their biological experiments on the planet Tallon IV.
+        </p>
+        <div>
+          <img class="gamecase" src="img\cases\prime-case.jpg" alt="Metroid Prime Artwork">
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- **** ACCORDION SEVEN END **** -->
+    <!-- **** ACCORDION 8 START **** -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+        METROID FUSION (2002)
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Metroid Fusion is an action-adventure game in which the player controls Samus Aran.
+          Like previous games in the series, Fusion is set in a large open-ended world with elevators
+          that connect regions, which each in turn contains rooms separated by doors.
+        </p>
+        <div>
+          <img class="gamecase" src="img\cases\fusion-case.jpg" alt="Metroid Fusion Artwork">
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- **** ACCORDION 8 END **** -->
+    <!-- **** ACCORDION 9 START **** -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading9">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+        SUPER METROID (1994)
+      </button>
+    </h2>
+    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Super Metroid is a 2D, side-scrolling action-adventure game, which primarily takes place on the
+          fictional planet Zebes from the original game—a large, open-ended world with areas connected by
+          doors and elevators. The player controls Samus Aran as she searches the planet for a Metroid that
+          has been stolen by Ridley, the leader of the Space Pirates.
+        <div>
+          <img class="gamecase" src="img\cases\superm.jpg" alt="Super Metroid Artwork">
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- **** ACCORDION 9 END **** -->
+      
+      <!-- ***************** END OF ALL ACCORDION DIVS ************** -->   
+  </div>   
+
+          <!--   ****************************************************************************************   -->
+          <!--   ****************************************************************************************   -->
+
+  <section class="clean-block about-us" id="villains">
+    <div class="container3">
+        <div class="block-heading">
+          <br><br><br><br>
+            <h2 class="text-info2">MAIN VILLAINS</h2>
+            <p>Some of the most vile villains in the entire universe. Samus has faced them
+              countless of times throughtout her adventures through space.
+            </p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-6 col-lg-4">
+                <div class="card text-center clean-card shadow-drop-2-center">
+                  <picture>
+                    <source media="(max-width: 799px)" srcset="img\villains\ridley.png" type="image/png">
+                    <source media="(max-width: 799px)" srcset="img\villains\ridley.webp" type="image/webp">
+                    <source media="(min-width: 800px)" srcset="img\villains\ridley.png" type="image/png">
+                    <source media="(min-width: 800px)" srcset="img\villains\ridley.webp" type="image/webp">
+                    <img class="card-img-top" src="img\villains\ridley.webp" alt="A giant purple dragon named Ridley that is Samus' nemesis">
+                  </picture>      
+                    <div class="card-body info">
+                        <h4 class="card-title">[RIDLEY]</h4>
+                        <p class="card-text">Is a high-ranking Space Pirate, the archenemy of Samus Aran,
+                          and one of the most common recurring characters and antagonists in the Metroid
+                          series, appearing in most of the games.</p>
+                          <div class="icons"><a href="#"  alt="Dragon Icon"><i class="fa-solid fa-dragon" alt="Dragon Icon"></i></a>DRAGON<a href="#"  alt="Skull Icon"><i class="fa-solid fa-skull-crossbones" alt="Skull Icon"></i></a>EVIL<a href="#"  alt="Gamepad Icon"><i class="fa-solid fa-gamepad" alt="Gamepad Icon"></i></a>GAMER</div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card text-center clean-card"> 
+                  <picture>
+                    <source media="(max-width: 799px)" srcset="img\villains\omega.png" type="image/png">
+                    <source media="(max-width: 799px)" srcset="img\villains\omega.webp" type="image/webp">
+                    <source media="(min-width: 800px)" srcset="img\villains\omega.png" type="image/png">
+                    <source media="(min-width: 800px)" srcset="img\villains\omega.webp" type="image/webp">
+                    <img class="card-img-top w-100 d-block" src="img\villains\omega.webp" alt="A giant reptilian monster that lives inside lava and acid pools">
+                  </picture>      
+                    <div class="card-body info">
+                        <h4 class="card-title">[OMEGA PIRATE]</h4>
+                        <p class="card-text">Elite Pirate Upsilon, more commonly known as the Omega Pirate,
+                          was one of the most powerful Space Pirates ever created and had the potential to
+                          be a new standard for the Pirates.</p>
+                        <div class="icons"><a href="#"  alt="Virus Icon"><i class="fa-solid fa-virus" alt="Virus Icon"></i></a>VIRUS<a href="#"  alt="Skull Icon"><i class="fa-solid fa-skull-crossbones" alt="Skull Icon"></i></a>EVIL<a href="#"  alt="Gamepad Icon"><i class="fa-solid fa-gamepad" alt="Gamepad Icon"></i></a>GAMER</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card text-center clean-card">
+                  <picture>
+                    <source media="(max-width: 799px)" srcset="img\villains\darksamus.png" type="image/png">
+                    <source media="(max-width: 799px)" srcset="img\villains\darksamus.webp" type="image/webp">
+                    <source media="(min-width: 800px)" srcset="img\villains\darksamus.png" type="image/png">
+                    <source media="(min-width: 800px)" srcset="img\villains\darksamus.webp" type="image/webp">
+                    <img class="card-img-top w-100 d-block" src="img\villains\darksamus.webp" alt="An evil twin of samus, cloaked in dark toxic matter called phazon">
+                  </picture>      
+                    <div class="card-body info">
+                        <h4 class="card-title">[DARK SAMUS]</h4>
+                        <p class="card-text">Dark Samus is a being of Phazon created after the dying Metroid Prime
+                          absorbed Samus' Phazon Suit and her DNA. It had many battles with Samus during its search
+                          for Phazon on the planet Aether.</p>
+                        <div class="icons"><a href="#"  alt="Virus Icon"><i class="fa-solid fa-virus"></i></a>VIRUS<a href="#"  alt="Skull Icon"><i class="fa-solid fa-skull-crossbones"></i></a>EVIL<a href="#"  alt="Gamepad Icon"><i class="fa-solid fa-gamepad" alt="Gamepad Icon"></i></a>GAMER</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>    
     <footer>
       <div class="footer-text">
         <p>2022 Metroid Fanpage, All Rights Reserved</p>

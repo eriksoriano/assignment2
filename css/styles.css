@@ -287,8 +287,8 @@ h4 {
 
 .gamecase {
     width: 15rem;
-    margin: auto;
-    padding: 2rem;
+    /* margin: auto; */
+    padding: 3rem;
 }
 
 /****************** This below is for ACCORDION items END *********************/

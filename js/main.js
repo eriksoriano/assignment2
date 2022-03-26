@@ -3,6 +3,7 @@
 // **********************************************************
 
 const changeSamusText = document.querySelector("#spaceSuites");
+console.log(changeSamusText); // it works 
 
 
 
@@ -150,8 +151,8 @@ const changeSamusText = document.querySelector("#spaceSuites");
 // console.log(selectDataAttribute)
 
 // // Use querySelectorAll when you want to select all instances. 
-const selectAllp = document.querySelectorAll("p")
-console.log(selectAllp)
+// const selectAllp = document.querySelectorAll("p")
+// console.log(selectAllp)
 
 // // querySelector always selects the first instance 
 // const selectBox = document.querySelector(".box")
@@ -365,28 +366,28 @@ console.log(selectAllp)
 
 // // ================== EVENT LISTENERS ==================
 // // Let's get the button on the HTML
-const myButton = document.querySelector('button')
+// const myButton = document.querySelector('button')
 // // Add an event listener for when we click the button
-myButton.addEventListener('click', function () {
+// myButton.addEventListener('click', function () {
   // Change some CSS
-  myButton.style.background = "#000"
-  myButton.style.color = "#fff"
-  myButton.style.fontSize = "2rem"
+  // myButton.style.background = "#000"
+  // myButton.style.color = "#fff"
+  // myButton.style.fontSize = "2rem"
   // Better add a class so you can remove it later
-  if (myButton.classList.contains('clicked')) {
-    myButton.classList.remove('clicked')
-    myButton.style.background = "green"
+  // if (myButton.classList.contains('clicked')) {
+  //   myButton.classList.remove('clicked')
+  //   myButton.style.background = "green"
 
-  } else {
-    myButton.classList.add('clicked')
-  }
+  // } else {
+  //   myButton.classList.add('clicked')
+  // }
   // Or even shorter by using toggle
   // myButton.classList.toggle('clicked')
-})
+// })
 
-const myHover = document.querySelector('p')
+// const myHover = document.querySelector('p')
 
-myHover.addEventListener('mouseover', () => {
-  myHover.style.background = "#000"
+// myHover.addEventListener('mouseover', () => {
+//   myHover.style.background = "#000"
 
-})
+// })

@@ -1,9 +1,90 @@
-// **********************************************************
-//         change the color of an item using .style
-// **********************************************************
+// **********************************************************************************************************
+//         change the color of an item using .style     DONE
+// **********************************************************************************************************
 
 const changeSamusText = document.querySelector("#spaceSuites");
 console.log(changeSamusText); // it works 
+
+// // // Using the Style Property 
+changeSamusText.style.background = "#202020"
+changeSamusText.style.color = "orange" // actual HW task, but i added more stuff
+changeSamusText.style.padding = "1rem"
+changeSamusText.style.fontSize = "4rem"
+changeSamusText.style.borderRadius = "2rem"
+
+
+
+
+// *********************************************************************************************************
+//     Add a class to an HTML tag with .setAttribute, and change some property with that class. (change occurs below)   DONE
+// **********************************************************************************************************
+
+const addClasstoP = document.querySelector("#addClassHere");
+console.log(addClasstoP);
+
+addClasstoP.setAttribute('class', 'para-style') // actual HW task, but i added more stuff
+
+// addClasstoP.style.setProperty('font-size', '2rem')
+addClasstoP.style.color = "greenyellow";
+addClasstoP.style.fontFamily = "Share Tech Mono, monospace";
+
+
+
+// **********************************************************************************************************
+//    Change the font size of an element using .setProperty -- (using the class i created above, i now change color here)   DONE
+// **********************************************************************************************************
+// ------- 1st i added the class to the <p> tag using .setAttribute above
+// ------- THEN below here i now add the .setProperty and change color to greenyellow
+// -------I did it in this order, because lines are run from top to bottom  so the class has to exist first before i change color
+// ------- i tried doing it inverse, and it didnt work that's how i found out.
+
+
+const hoverExplainTxt = document.querySelector(".para-style");
+console.log(hoverExplainTxt); // it works 
+
+addClasstoP.style.setProperty('color', 'greenyellow');
+addClasstoP.style.setProperty('font-size', '2rem'); // actual HW task, but i added more stuff
+addClasstoP.style.setProperty('background-color', '#202020');
+addClasstoP.style.setProperty('border-radius', '2rem');
+addClasstoP.style.setProperty('padding', '1rem');
+addClasstoP.style.setProperty('border', '1px solid');
+
+
+// *********************************************************************************************************
+//            Create an empty paragraph and add some content with Javascript.   DONE
+// **********************************************************************************************************
+const thisNewPara = document.querySelector("#newP");
+console.log(thisNewPara);
+thisNewPara.innerHTML = "Throughout her adventures in the galaxy, Samus Aran has utilized many suits like the ones mentioned above, but also has been aided a few times by the following ones:";
+
+thisNewPara.style.setProperty('color', 'white');
+thisNewPara.style.setProperty('font-size', '1rem'); // actual HW task, but i added more stuff
+
+
+// *********************************************************************************************************
+//            Create an array and display the content on the page.
+// **********************************************************************************************************
+
+
+
+
+
+
+
+// *********************************************************************************************************
+//          Create a button and add an event listener to change the background of a section or div.
+// **********************************************************************************************************
+
+
+
+
+// *********************************************************************************************************
+//   Select one of the 3 elements implemented in class and integrate it into your page. (Slide Panel, Modal,
+//   or Random background). If you use the random background you can apply it to any section.
+//   It does not have to be the whole background.
+// **********************************************************************************************************
+
+
 
 
 

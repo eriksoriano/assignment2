@@ -256,10 +256,11 @@ h4 {
 
 /****************** samus and zero suit samus section *********************/
 
+/* javascript file for HW3 changes some elements of this section */
 
 .sect3-title {
     /* background-color: #202020; */
-    color: greenyellow;
+    color: white; 
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     font-size: 4rem;
@@ -489,7 +490,13 @@ footer {
 
 /****************** FOOTER AREA *************************/
 
+/* this one applies to all icons on page; including villain ones */
 .fa-solid {
+    color: black;
+}
+
+/* in footer; only for arrows up */
+.fa-angles-up {
     color: white;
 }
 

@@ -424,13 +424,13 @@ footer {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .clean-block.clean-hero {
         background-image: url('../img/samusfront.jpg');
     }
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1024px) {
     .clean-block.clean-hero {
         background-image: url('../img/samusfront.jpg');
     }
@@ -485,3 +485,46 @@ footer {
     color: white;
 }
 /****************** section 6 the hero image linkin to metroid prime weather app *********************/
+
+
+/****************** FOOTER AREA *************************/
+
+.fa-solid {
+    color: white;
+}
+
+.fa-solid:hover {
+    color: greenyellow;
+}
+
+.gotop {
+    text-decoration: inherit;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .gotop:hover {
+    color: greenyellow
+  }
+  
+  
+  .section7 {
+    background-color: black;
+    max-width: 100%;
+    align-content: center;
+    font-size: 14px;
+    margin: auto;
+  
+    padding-top: 2rem;
+    text-align: center;
+  }
+  
+  /* a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+   */
+  /****************** FOOTER AREA *********************/
+  

@@ -16,6 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- icons below -->
     <script src="https://kit.fontawesome.com/6d7bd56e99.js" crossorigin="anonymous"></script>
+    <!-- main javascript file -->
+    <script src="js/main.js" defer></script>
     <!-- Bootstrap CSS below -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Google font below -->
@@ -64,7 +66,7 @@
             <source media="(max-width: 799px)" srcset="img/slideshow/dread-600.webp" type="image/webp">
             <source media="(min-width: 800px)" srcset="img/slideshow/dread.jpg" type="image/jpg">
             <source media="(min-width: 800px)" srcset="img/slideshow/dread.webp" type="image/webp">
-            <img src="img/dread.webp" class="d-block w-100" width="" height="" alt="Samus sliding away and pointing her arm cannon toward an enemy">
+            <img src="img/dread.webp" class="d-block w-100" width="" height="" alt="Samus sliding away and pointing her arm cannon toward an enemy" loading="lazy">
           </picture>
           <div class="carousel-caption d-none d-md-block">
             <h1 class="cap-title">METROID DREAD (2021)</h1>
@@ -77,7 +79,7 @@
             <source media="(max-width: 799px)" srcset="img/slideshow/prime-600.webp" type="image/webp">
             <source media="(min-width: 800px)" srcset="img/slideshow/prime.jpg" type="image/jpg">
             <source media="(min-width: 800px)" srcset="img/slideshow/prime.webp" type="image/webp">
-            <img src="img/prime.webp" class="d-block w-100" width="" height="" alt="Samus standing at a save station as she appears in Metroid Prime One">
+            <img src="img/prime.webp" class="d-block w-100" width="" height="" alt="Samus standing at a save station as she appears in Metroid Prime One" loading="lazy">
           </picture>
           <div class="carousel-caption d-none d-md-block">
             <h1 class="cap-title">METROID PRIME (2002)</h1>
@@ -90,7 +92,7 @@
             <source media="(max-width: 799px)" srcset="img/slideshow/prime2-600.webp" type="image/webp">
             <source media="(min-width: 800px)" srcset="img/slideshow/prime2.jpg" type="image/jpg">
             <source media="(min-width: 800px)" srcset="img/slideshow/prime2.webp" type="image/webp">
-            <img src="img/prime2.webp" class="d-block w-100" width="" height="" alt="First-person view through samus helmet of a portal to another dimension">
+            <img src="img/prime2.webp" class="d-block w-100" width="" height="" alt="First-person view through samus helmet of a portal to another dimension" loading="lazy">
           </picture>
           <div class="carousel-caption d-none d-md-block">
             <h1 class="cap-title">METROID PRIME 2 : ECHOES (2004)</h1>
@@ -103,7 +105,7 @@
             <source media="(max-width: 799px)" srcset="img/slideshow/fusion-600.webp" type="image/webp">
             <source media="(min-width: 800px)" srcset="img/slideshow/fusion.jpg" type="image/jpg">
             <source media="(min-width: 800px)" srcset="img/slideshow/fusion.webp" type="image/webp">
-            <img src="img/fusion.webp" class="d-block w-100" width="" height="" alt="Samus in her Fusion suit, ready to blast her way through a tunnel full of aliens">
+            <img src="img/fusion.webp" class="d-block w-100" width="" height="" alt="Samus in her Fusion suit, ready to blast her way through a tunnel full of aliens" loading="lazy">
           </picture>
           <div class="carousel-caption d-none d-md-block">
             <h1 class="cap-title">METROID FUSION (2002)</h1>
@@ -122,9 +124,9 @@
     </div>
 </section> <!-- section1 - carousel --> 
 
-  <section class="section2"> <!-- section2 - about samus aran --> 
-    <div class="about-cont" id="about">
-      <br><br><br><br>
+  <section class="section2" id="about"> <!-- section2 - about samus aran --> 
+    <div class="about-cont">
+  
       <h1>Her Name is <br>
         <strong class="samus-aran text-pop-up-top">SAMUS ARAN</strong></h1>
       <br>
@@ -148,7 +150,7 @@
   <section class="clean-block about-us" id="suits">  <!-- section3 - about samus aran --> 
     <div class="section3">
       <br><br><br>
-      <h2 class="sect3-text">TYPES OF SPACE SUITS</h2>
+      <h2 class="sect3-title" id=spaceSuites>TYPES OF SPACE SUITS</h2>
       <p class="sect3-text">(Hover over an image to read more about each side)</p>
       <br><br>
       <div class="row justify-content">
@@ -159,7 +161,7 @@
             <source media="(max-width: 799px)" srcset="img\samustall.png" type="image/png">
             <source media="(min-width: 800px)" srcset="img\samustall.webp" type="image/webp">
             <source media="(min-width: 800px)" srcset="img\samustall.png" type="image/png">
-            <img class="card-img-top" src="img/samustall.png" alt="Samus Aran Standing on a transparent background">
+            <img class="card-img-top" src="img/samustall.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
            </picture>
            <br><br>
         </div> <!-- normal samus photo -->
@@ -171,7 +173,7 @@
               <source media="(max-width: 799px)" srcset="img/zerosuittall.png" type="image/png">
               <source media="(min-width: 800px)" srcset="img/zerosuittall.webp" type="image/webp">
               <source media="(min-width: 800px)" srcset="img/zerosuittall.png" type="image/png">
-              <img class="card-img-top" src="img/zerosuittall.png" alt="Samus Aran Standing on a transparent background">
+              <img class="card-img-top" src="img/zerosuittall.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
           </picture>
           <br><br>
 
@@ -184,7 +186,7 @@
               <source media="(max-width: 799px)" srcset="img/lightsuit.png" type="image/png">
               <source media="(min-width: 800px)" srcset="img/lightsuit.webp" type="image/webp">
               <source media="(min-width: 800px)" srcset="img/lightsuit.png" type="image/png">
-              <img class="card-img-top" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background">
+              <img class="card-img-top" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
           </picture>
           <br><br>
 
@@ -197,7 +199,7 @@
               <source media="(max-width: 799px)" srcset="img/darksuit.png" type="image/png">
               <source media="(min-width: 800px)" srcset="img/darksuit.webp" type="image/webp">
               <source media="(min-width: 800px)" srcset="img/darksuit.png" type="image/png">
-              <img class="card-img-top" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background">
+              <img class="card-img-top" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
           </picture>
           <br><br>
 
@@ -213,6 +215,8 @@
 
   <section class ="section4" id="seeGames"> <!-- section4 - accordion with games -->
   <div class="accordion" id="accordionExample">
+    <br><br><br>
+    <h2 class="sect-titles">ALL GAMES RELEASED</h2>
     <hr>
     <h4>[ See below for the list of the most recent Metroid games released ]</h4>
     <hr>
@@ -232,7 +236,7 @@
             who will stop at nothing to destroy her and steal her DNA for his sinister plans.
           </p>
           <div>
-            <img class="gamecase" src="img\cases\dread-case.jpg" alt="Metroid Dread Game Artwork">
+            <img class="gamecase" src="img\cases\dread-case.jpg" alt="Metroid Dread Game Artwork" loading="lazy">
           </div>
         </div>
       </div>
@@ -254,7 +258,7 @@
             exterminate the Metroid species, but it's not as easy as it seems.
           </p>
           <div>
-            <img class="gamecase" src="img\cases\return-case.jpg" alt="Metroid Dread Game Artwork">
+            <img class="gamecase" src="img\cases\return-case.jpg" alt="Metroid Dread Game Artwork" loading="lazy">
           </div>
         </div>
       </div>
@@ -278,7 +282,7 @@
             jellyfish-like Metroids and Space Pirates.
           </p>
           <div>
-            <img class="gamecase" src="img\cases\fede-case.jpg" alt="Metroid Prime: Federation Force Artwork">
+            <img class="gamecase" src="img\cases\fede-case.jpg" alt="Metroid Prime: Federation Force Artwork" loading="lazy">
           </div>
         </div>
       </div>
@@ -301,7 +305,7 @@
             are Anthony Higgs, an old friend from her military career, and her commanding officer Adam Malkovich.
           </p>
           <div>
-            <img class="gamecase" src="img\cases\otherm-case.png" alt="Metroid: Other M Artwork">
+            <img class="gamecase" src="img\cases\otherm-case.png" alt="Metroid: Other M Artwork" loading="lazy">
           </div>
         </div>
       </div>
@@ -324,7 +328,7 @@
             allows the player to execute actions such as jumping, aiming, and firing weapons.
           </p>
           <div>
-            <img class="gamecase" src="img\cases\prime3-case.jpg" alt="Metroid Prime 3: Corruption Artwork">
+            <img class="gamecase" src="img\cases\prime3-case.jpg" alt="Metroid Prime 3: Corruption Artwork" loading="lazy">
           </div>
         </div>
       </div>
@@ -348,7 +352,7 @@
           creatures, Space Pirates, and her mysterious doppelgänger Dark Samus.
         </p>
         <div>
-          <img class="gamecase" src="img\cases\prime2-case.jpg" alt="Metroid Prime 2: Echoes Artwork">
+          <img class="gamecase" src="img\cases\prime2-case.jpg" alt="Metroid Prime 2: Echoes Artwork" loading="lazy">
         </div>
       </div>
     </div>
@@ -370,7 +374,7 @@
           and their biological experiments on the planet Tallon IV.
         </p>
         <div>
-          <img class="gamecase" src="img\cases\prime-case.jpg" alt="Metroid Prime Artwork">
+          <img class="gamecase" src="img\cases\prime-case.jpg" alt="Metroid Prime Artwork" loading="lazy">
         </div>
       </div>
     </div>
@@ -389,7 +393,7 @@
           that connect regions, which each in turn contains rooms separated by doors.
         </p>
         <div>
-          <img class="gamecase" src="img\cases\fusion-case.jpg" alt="Metroid Fusion Artwork">
+          <img class="gamecase" src="img\cases\fusion-case.jpg" alt="Metroid Fusion Artwork" loading="lazy">
         </div>
       </div>
     </div>
@@ -408,7 +412,7 @@
           doors and elevators. The player controls Samus Aran as she searches the planet for a Metroid that
           has been stolen by Ridley, the leader of the Space Pirates.
         <div>
-          <img class="gamecase" src="img\cases\superm.jpg" alt="Super Metroid Artwork">
+          <img class="gamecase" src="img\cases\superm.jpg" alt="Super Metroid Artwork" loading="lazy">
         </div>
       </div>
     </div>
@@ -420,10 +424,13 @@
   <section class="clean-block about-us section5" id="villains"> <!-- section5 - villains -->
         <div class="block-heading">
           <br><br><br>
-            <h2 class="text-info2">MAIN VILLAINS</h2>
-            <p>Some of the most vile villains in the entire universe. Samus has faced them
-              countless of times throughtout her adventures through space.
+            <h2 class="sect-titles">MAIN VILLAINS</h2>
+            <p>Some of the most evil villains in the entire galaxy. Samus has faced them
+              countless of times throughout her adventures through space and time. There are many other antagonists
+              in the series, but these three are the epitome of evil. As usual, evil is always lurking in the universe;
+              and it must be destroyed, decimated, exterminated; but first, it must be found.
             </p>
+            <br><br>
         </div>
         <div class="row justify-content-center">
             <div class="col-sm-6 col-lg-4">
@@ -433,7 +440,7 @@
                     <source media="(max-width: 799px)" srcset="img\villains\ridley.webp" type="image/webp">
                     <source media="(min-width: 800px)" srcset="img\villains\ridley.png" type="image/png">
                     <source media="(min-width: 800px)" srcset="img\villains\ridley.webp" type="image/webp">
-                    <img class="card-img-top" src="img\villains\ridley.webp" alt="A giant purple dragon named Ridley that is Samus' nemesis">
+                    <img class="card-img-top" src="img\villains\ridley.webp" alt="A giant purple dragon named Ridley that is Samus' nemesis" loading="lazy">
                   </picture>      
                     <div class="card-body info">
                         <h4 class="card-title">[RIDLEY]</h4>
@@ -451,7 +458,7 @@
                     <source media="(max-width: 799px)" srcset="img\villains\omega.webp" type="image/webp">
                     <source media="(min-width: 800px)" srcset="img\villains\omega.png" type="image/png">
                     <source media="(min-width: 800px)" srcset="img\villains\omega.webp" type="image/webp">
-                    <img class="card-img-top w-100 d-block" src="img\villains\omega.webp" alt="A giant reptilian monster that lives inside lava and acid pools">
+                    <img class="card-img-top w-100 d-block" src="img\villains\omega.webp" alt="A giant reptilian monster that lives inside lava and acid pools" loading="lazy">
                   </picture>      
                     <div class="card-body info">
                         <h4 class="card-title">[OMEGA PIRATE]</h4>
@@ -482,13 +489,14 @@
             </div>
 </section> <!-- section5 - villains -->
 
-<section class="clean-block clean-hero" id="weatherapp">
-  <div class="text">
-      <h4>Check Out My Other Side Project:</h4>
-      <h2>Metroid Prime: Weather App</h2>
-      <p>Click the button below to check it out.</p><button class="btn btn-outline-light btn-lg" type="button">View Weather App</button>
+<section class="clean-block clean-hero" id="weatherapp"> <!-- section6 - weatherapp -->
+  <div class="text overlay">
+      <h2>Check Out My Other Side Project:</h2>
+      <h1 class="hero-text h1">METROID PRIME: WEATHER APP</h1>
+      <h5>Click the button below to check it out.</h5> <br><br>
+      <button class="btn btn-outline-light btn-lg" type="button"><a class="weather-btn" target="_blank" href="https://eriksoriano.github.io/metroidprimeweather/weekly.html">VIEW WEATHER APP</a></button>
   </div>
-</section>
+</section> <!-- section6 - weatherapp -->
 
 
 <!-- <section class="section6" id="weatherapp">

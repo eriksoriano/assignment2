@@ -10,31 +10,50 @@ p {
     margin: auto;
 }
 
+/****************** section titles in CAPITAL LETTERS *********************/
+.sect-titles {
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    font-size: 4rem;
+
+}
 
 
 
 /****************** carousel section *********************/
 .section1 {
     background-color:#ffa600;
-
+    padding-top: 4rem;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+    padding-bottom: 4rem;
 }
 
 /****************** her name is samus section *********************/
 .section2 {
     background-color: rgb(255, 192, 75);
-    padding: 2rem;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
 }
 
 /****************** tyoes of space suits section *********************/
 .section3 {
     background-color: black;
-    padding: 3rem;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
 }
 /****************** games released section *********************/
 
 .section4 {
     background-color: rgb(255, 196, 86);
-    padding: 2rem;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
 
 }
 
@@ -42,7 +61,10 @@ p {
 
 .section5 {
     background-color:#ffa600;
-    padding: 2rem;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
 }
 
 /****************** hero image link to weather app section *********************/
@@ -128,11 +150,13 @@ p {
 .carousel-caption {
     align-content: center;
     margin: auto;
-    padding: 10px;
+    padding: auto;
     
     background-color:#00000080;
     border: 0.5px solid;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
+    max-width: 60rem;
+
 
     top: 50%;
     transform: translateY(-50%);
@@ -233,14 +257,28 @@ h4 {
 /****************** samus and zero suit samus section *********************/
 
 
+.sect3-title {
+    /* background-color: #202020; */
+    color: greenyellow;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    font-size: 4rem;
+
+    
+}
+
 .sect3-text {
     /* background-color: #202020; */
     color: #f2f2f2;
     font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
     text-align: center;
 }
 
+/* .samus-bck {
+    background-color: red;
 
+} */
 
 /****************** samus and zero suit samus section *********************/
 
@@ -291,16 +329,16 @@ h4 {
     padding: 3rem;
 }
 
-/****************** This below is for ACCORDION items END *********************/
+/****************** end of accordion *********************/
 
 
-
+/****************** main villains section *********************/
 
 .card {
     margin: 0.5em;
     padding: 0.5em;
-    /* background-color: rgb(255, 196, 86); */
-    background-color: orange;
+    background-color: rgb(255, 196, 86);
+    /* background-color: orange; */
     box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
     border: 3px solid;
     border-color: greenyellow;
@@ -314,7 +352,6 @@ h4 {
 }
 
 
-
 .card-text {
     font-size: 0.8rem;
     text-align:justify;
@@ -324,7 +361,7 @@ h4 {
 
 .card-img-top {
     /* background-color: green; */
-    max-width: 20rem;
+    max-width: 30rem;
     margin: auto;
     padding: auto;
     /* align-content: center; */
@@ -345,6 +382,11 @@ h4 {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+
+/****************** main villains section *********************/
+
+
 footer {
     background-color: black;
     padding: 3rem;
@@ -369,19 +411,77 @@ footer {
 /* Assignment 1 Styles  */
 /* Hero Image  */
 .clean-block.clean-hero {
-    background-image: url('../img/samusfaceleft.jpg');
+    background-color:#00000080;
+    background-image: url('../img/samusleft.jpg');
     background-size: cover;
     position: sticky;
     background-repeat: no-repeat;
-    height: 600px;
+    /* min-height: 800px; */
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 60rem;
+
 }
+
+@media (max-width: 480px) {
+    .clean-block.clean-hero {
+        background-image: url('../img/samusfront.jpg');
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .clean-block.clean-hero {
+        background-image: url('../img/samusfront.jpg');
+    }
+}
+
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
 
 .text {
+    padding-top: 20rem;
+    /* padding-right: 10rem; */
     font-family: 'Share Tech Mono', monospace;
     color: white;
-    text-align: center;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 80%);
+
+
     align-content: center;
+    position: relative;
+
+    text-align: center;
+}
+
+.btn {
+    /* background-color: red; */
+    font-size: 2.5rem;
+    color: greenyellow;
 }
 
 
+.weather-btn {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.weather-btn:hover {
+    color: black;
+
+
+}
+.hero-text {
+    font-size: 4rem;
+    color: white;
+}
 /****************** section 6 the hero image linkin to metroid prime weather app *********************/

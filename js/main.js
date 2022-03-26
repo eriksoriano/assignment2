@@ -30,6 +30,7 @@ addClasstoP.style.fontFamily = "Share Tech Mono, monospace";
 
 
 
+
 // **********************************************************************************************************
 //    Change the font size of an element using .setProperty -- (using the class i created above, i now change color here)   DONE
 // **********************************************************************************************************
@@ -66,6 +67,22 @@ thisNewPara.style.setProperty('font-size', '1rem'); // actual HW task, but i add
 // **********************************************************************************************************
 
 
+const mySuitArray = [
+    "GRAVITY SUIT <br>",
+    "PHAZON SUIT <br>",
+    "VARIA SUIT <br>",
+    "FUSION SUIT <br>",
+    "METROID SUIT"
+];
+console.log(mySuitArray);
+
+const showmySuitArray =document.querySelector("#showArray"); // actual HW task, but i added more stuff
+showmySuitArray.innerHTML = mySuitArray;
+
+showmySuitArray.style.setProperty('color', 'orange');
+showmySuitArray.style.setProperty('font-size', '1.5rem'); 
+showmySuitArray.style.setProperty('text-align', 'center'); 
+
 
 
 
@@ -74,6 +91,18 @@ thisNewPara.style.setProperty('font-size', '1rem'); // actual HW task, but i add
 // *********************************************************************************************************
 //          Create a button and add an event listener to change the background of a section or div.
 // **********************************************************************************************************
+
+const changeDivColor = document.querySelector('#changeColorBro');
+console.log(changeDivColor);
+changeDivColor.innerHTML = "CLICK HERE TO CHANGE BACKGROUND OF THIS AREA"
+
+changeDivColor.style.setProperty('color', 'greenyellow');
+changeDivColor.style.setProperty('font-size', '1rem'); // actual HW task, but i added more stuff
+changeDivColor.style.setProperty('background-color', '#202020');
+changeDivColor.style.setProperty('border-radius', '2rem');
+changeDivColor.style.setProperty('padding', '1rem');
+changeDivColor.style.setProperty('margin', '1rem');
+changeDivColor.style.setProperty('border', '1px solid');
 
 
 

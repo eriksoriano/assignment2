@@ -11,44 +11,48 @@ changeSamusText.style.color = "orange" // actual HW task, but i added more stuff
 changeSamusText.style.padding = "1rem"
 changeSamusText.style.fontSize = "4rem"
 changeSamusText.style.borderRadius = "2rem"
+changeSamusText.style.border = "1px solid";
+
+
+
+
+// **********************************************************************************************************
+//    Change the font size of an element using .setProperty --   DONE
+// **********************************************************************************************************
+
+const hoverText = document.querySelector("#hoverExplainTxt");
+console.log(hoverExplainTxt); // it works 
+
+hoverText.style.setProperty('color', 'orange');
+hoverText.style.setProperty('font-size', '1.5rem'); // actual HW task, but i added more stuff
 
 
 
 
 // *********************************************************************************************************
-//     Add a class to an HTML tag with .setAttribute, and change some property with that class. (change occurs below)   DONE
+//     Add a class to an HTML tag with .setAttribute, and change some property with that class.  DONE
 // **********************************************************************************************************
 
-const addClasstoP = document.querySelector("#addClassHere");
-console.log(addClasstoP);
+const addClasstoDiv = document.querySelector("#addClassHere");
+console.log(addClasstoDiv); // it works 
 
-addClasstoP.setAttribute('class', 'para-style') // actual HW task, but i added more stuff
+addClasstoDiv.setAttribute('class', 'para-style') // now that class is added, we will edit properties below
 
-// addClasstoP.style.setProperty('font-size', '2rem')
-addClasstoP.style.color = "greenyellow";
-addClasstoP.style.fontFamily = "Share Tech Mono, monospace";
+addClasstoDiv.style.setProperty('font-family', 'Share Tech Mono, monospace');
+addClasstoDiv.style.setProperty('padding', '1rem');
 
+addClasstoDiv.style.setProperty('color', 'greenyellow');
+addClasstoDiv.style.setProperty('font-size', '3rem');
 
-
-
-// **********************************************************************************************************
-//    Change the font size of an element using .setProperty -- (using the class i created above, i now change color here)   DONE
-// **********************************************************************************************************
-// ------- 1st i added the class to the <p> tag using .setAttribute above
-// ------- THEN below here i now add the .setProperty and change color to greenyellow
-// -------I did it in this order, because lines are run from top to bottom  so the class has to exist first before i change color
-// ------- i tried doing it inverse, and it didnt work that's how i found out.
+addClasstoDiv.style.setProperty('background-color', '#202020');
+addClasstoDiv.style.setProperty('border-radius', '2rem');
+addClasstoDiv.style.setProperty('border', '1px solid');
 
 
-const hoverExplainTxt = document.querySelector(".para-style");
-console.log(hoverExplainTxt); // it works 
 
-addClasstoP.style.setProperty('color', 'greenyellow');
-addClasstoP.style.setProperty('font-size', '2rem'); // actual HW task, but i added more stuff
-addClasstoP.style.setProperty('background-color', '#202020');
-addClasstoP.style.setProperty('border-radius', '2rem');
-addClasstoP.style.setProperty('padding', '1rem');
-addClasstoP.style.setProperty('border', '1px solid');
+
+
+
 
 
 // *********************************************************************************************************
@@ -58,12 +62,14 @@ const thisNewPara = document.querySelector("#newP");
 console.log(thisNewPara);
 thisNewPara.innerHTML = "Throughout her adventures in the galaxy, Samus Aran has utilized many suits like the ones mentioned above, but also has been aided a few times by the following ones:";
 
-thisNewPara.style.setProperty('color', 'white');
-thisNewPara.style.setProperty('font-size', '1rem'); // actual HW task, but i added more stuff
+thisNewPara.style.setProperty('color', 'white'); // should be white as per styling from div, but i wanted it white so
+thisNewPara.style.setProperty('font-size', '1.2rem'); // actual HW task, but i added more stuff
+// thisNewPara.style.setProperty('font-family', 'roboto');
+
 
 
 // *********************************************************************************************************
-//            Create an array and display the content on the page.
+//            Create an array and display the content on the page.   DONE
 // **********************************************************************************************************
 
 
@@ -80,21 +86,21 @@ const showmySuitArray =document.querySelector("#showArray"); // actual HW task, 
 showmySuitArray.innerHTML = mySuitArray;
 
 showmySuitArray.style.setProperty('color', 'orange');
-showmySuitArray.style.setProperty('font-size', '1.5rem'); 
+showmySuitArray.style.setProperty('font-size', '2rem'); 
 showmySuitArray.style.setProperty('text-align', 'center'); 
 
 
 
 
 
-
 // *********************************************************************************************************
-//          Create a button and add an event listener to change the background of a section or div.
+//          Create a button and add an event listener to change the background of a section or div.    DONE
 // **********************************************************************************************************
 
 const changeDivColor = document.querySelector('#changeColorBro');
 console.log(changeDivColor);
-changeDivColor.innerHTML = "CLICK HERE TO CHANGE BACKGROUND OF THIS AREA"
+
+changeDivColor.innerHTML = "CLICK HERE TO CHANGE BACKGROUND OF THIS AREA";
 
 changeDivColor.style.setProperty('color', 'greenyellow');
 changeDivColor.style.setProperty('font-size', '1rem'); // actual HW task, but i added more stuff
@@ -103,6 +109,39 @@ changeDivColor.style.setProperty('border-radius', '2rem');
 changeDivColor.style.setProperty('padding', '1rem');
 changeDivColor.style.setProperty('margin', '1rem');
 changeDivColor.style.setProperty('border', '1px solid');
+
+
+
+
+changeDivColor.addEventListener('click', function () {  // **** start of function *****
+  changeDivColor.style.setProperty('color', 'greenyellow');
+  
+
+  // Better add a class so you can remove it later
+  if (changeDivColor.classList.contains('clicked')) {
+    changeDivColor.classList.remove('clicked')
+
+    changeDivColor.style.setProperty('background-color', '#202020');
+    addClasstoDiv.style.setProperty('background-color', '#202020');
+    addClasstoDiv.style.setProperty('color', 'greenyellow');
+    showmySuitArray.style.setProperty('color', 'orange');
+
+
+  } else {
+    changeDivColor.classList.add('clicked')
+    changeDivColor.style.setProperty('background-color', 'greenyellow');
+    changeDivColor.style.color = "black";
+    addClasstoDiv.style.setProperty('background-color', 'black');
+    addClasstoDiv.style.setProperty('color', 'orange');
+    showmySuitArray.style.setProperty('color', 'greenyellow');
+
+
+
+
+
+  }
+})   // **** end of function *****
+
 
 
 

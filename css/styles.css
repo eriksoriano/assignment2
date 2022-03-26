@@ -424,13 +424,13 @@ footer {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .clean-block.clean-hero {
         background-image: url('../img/samusfront.jpg');
     }
 }
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
     .clean-block.clean-hero {
         background-image: url('../img/samusfront.jpg');
     }

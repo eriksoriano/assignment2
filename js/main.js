@@ -40,11 +40,13 @@ addClasstoDiv.setAttribute('class', 'para-style') // now that class is added, we
 
 addClasstoDiv.style.setProperty('font-family', 'Share Tech Mono, monospace');
 addClasstoDiv.style.setProperty('padding', '1rem');
+addClasstoDiv.style.setProperty('margin', '2rem');
+
 
 addClasstoDiv.style.setProperty('color', 'greenyellow');
 addClasstoDiv.style.setProperty('font-size', '3rem');
 
-addClasstoDiv.style.setProperty('background-color', '#202020');
+addClasstoDiv.style.setProperty('background-color', 'black');
 addClasstoDiv.style.setProperty('border-radius', '2rem');
 addClasstoDiv.style.setProperty('border', '1px solid');
 
@@ -63,7 +65,7 @@ console.log(thisNewPara);
 thisNewPara.innerHTML = "Throughout her adventures in the galaxy, Samus Aran has utilized many suits like the ones mentioned above, but also has been aided a few times by the following ones:";
 
 thisNewPara.style.setProperty('color', 'white'); // should be white as per styling from div, but i wanted it white so
-thisNewPara.style.setProperty('font-size', '1.2rem'); // actual HW task, but i added more stuff
+thisNewPara.style.setProperty('font-size', '1.5rem'); // actual HW task, but i added more stuff
 // thisNewPara.style.setProperty('font-family', 'roboto');
 
 
@@ -141,6 +143,133 @@ changeDivColor.addEventListener('click', function () {  // **** start of functio
 
   }
 })   // **** end of function *****
+
+
+
+// *********************************************************************************************************
+//         START OF FOUR  NODAL to the four main suites    DONE
+// **********************************************************************************************************
+
+
+// ==================== Modal LIGHT ====================
+
+const modalButton = document.querySelector('.jsModalButton')
+const modalCloseButton = document.querySelector('.jsModalClose')
+const modalOverlay = document.querySelector('.modal-overlay')
+
+modalButton.addEventListener('click', event => {
+  document.body.classList.add('modal-is-open')
+})
+
+modalCloseButton.addEventListener('click', event => {
+  document.body.classList.remove('modal-is-open')
+})
+
+modalOverlay.addEventListener('click', event => {
+  if (!event.target.closest('.modal')) {
+    document.body.classList.remove('modal-is-open')
+  }
+})
+
+const lightsuitTxt = document.querySelector("#lightsuittxt");
+console.log(lightsuitTxt);
+
+lightsuitTxt.innerHTML = "This suit grants the player full immunity against dark matter and dark enemies";
+lightsuitTxt.style.setProperty('padding-bottom', '2rem');
+
+
+// ==================== Modal 1 POWER ====================
+
+const modalButton1 = document.querySelector('.jsModalButton1')
+const modalCloseButton1 = document.querySelector('.jsModalClose1')
+const modalOverlay1 = document.querySelector('.modal-overlay1')
+
+modalButton1.addEventListener('click', event => {
+  document.body.classList.add('modal-is-open1')
+})
+
+modalCloseButton1.addEventListener('click', event => {
+  document.body.classList.remove('modal-is-open1')
+})
+
+modalOverlay1.addEventListener('click', event => {
+  if (!event.target.closest('.modal1')) {
+    document.body.classList.remove('modal-is-open1')
+  }
+})
+
+const powerSuitTxt = document.querySelector("#powertxt");
+console.log(powerSuitTxt);
+
+powerSuitTxt.innerHTML = "The iconic Power suit is Samus' signature look; as she appears in most games, always ready to kick ass.";
+powerSuitTxt.style.setProperty('padding-bottom', '2rem');
+
+
+
+
+
+// ==================== Modal 2 ZERO ====================
+
+const modalButton2 = document.querySelector('.jsModalButton2')
+const modalCloseButton2 = document.querySelector('.jsModalClose2')
+const modalOverlay2 = document.querySelector('.modal-overlay2')
+
+modalButton2.addEventListener('click', event => {
+  document.body.classList.add('modal-is-open2')
+})
+
+modalCloseButton2.addEventListener('click', event => {
+  document.body.classList.remove('modal-is-open2')
+})
+
+modalOverlay2.addEventListener('click', event => {
+  if (!event.target.closest('.modal2')) {
+    document.body.classList.remove('modal-is-open2')
+  }
+})
+
+const zeroSuitTxt = document.querySelector("#zerotxt");
+console.log(zeroSuitTxt);
+
+zeroSuitTxt.innerHTML = "Samus sheds her signature look for a sexier and more comfortable attire; this allows her to jump and kick";
+zeroSuitTxt.style.setProperty('padding-bottom', '2rem');
+
+
+
+// ==================== Modal 3 dark ====================
+
+const modalButton3 = document.querySelector('.jsModalButton3')
+const modalCloseButton3 = document.querySelector('.jsModalClose3')
+const modalOverlay3 = document.querySelector('.modal-overlay3')
+
+modalButton3.addEventListener('click', event => {
+  document.body.classList.add('modal-is-open3')
+})
+
+modalCloseButton3.addEventListener('click', event => {
+  document.body.classList.remove('modal-is-open3')
+})
+
+modalOverlay3.addEventListener('click', event => {
+  if (!event.target.closest('.modal3')) {
+    document.body.classList.remove('modal-is-open3')
+  }
+})
+
+const darkSuitTxt = document.querySelector("#darktxt");
+console.log(darkSuitTxt);
+
+darkSuitTxt.innerHTML = "Samus sheds her signature look for a sexier and more comfortable attire; this allows her to jump and kick";
+darkSuitTxt.style.setProperty('padding-bottom', '2rem');
+
+
+
+
+// *********************************************************************************************************
+//          END OF FOUR  NODAL to the four main suites   DONE
+// **********************************************************************************************************
+
+
 
 
 

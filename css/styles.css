@@ -272,7 +272,7 @@ h4 {
     /* background-color: #202020; */
     color: #f2f2f2;
     font-family: 'Share Tech Mono', monospace;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -280,6 +280,349 @@ h4 {
     background-color: red;
 
 } */
+
+
+
+/* ===================== MODAL =======================  */
+/* Modal */
+.modal-overlay {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  body.modal-is-open .modal-overlay {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .modal-img {
+      max-width: 70%;
+
+  }
+  
+  .modal {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 3rem;
+    background-color: greenyellow;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
+    color: #333;
+    font-family: 'Share Tech Mono', monospace;
+    height: 600px;
+    width: 600px;
+    /* max-width: fit-content; */
+    min-width: 70vmin;
+    min-height: 70vmin;
+    padding: 2.5rem;
+  }
+  
+  .modal__close-button {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    padding: 0.5rem;
+    font-size: 2em;
+    border-radius: 50%;
+    border: 2px solid var(--r-heading-color);
+    background: white;
+    color: var(--r-heading-color);
+    opacity: 1;
+    /* box-shadow: black; */
+  }
+  
+  .modal__close-button button:hover,
+  .modal__close-button:active,
+  .modal__close-button:focus {
+    background: white;
+    border-color: var(--r-heading-color);
+  }
+
+
+  .button{
+    background-color: black;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.5rem;
+}
+
+.button:hover {
+    background-color: greenyellow;
+    color: black;
+
+
+}
+
+/* ===================== MODAL  =======================  */
+
+/* ===================== MODAL 1 =======================  */
+/* Modal */
+.modal-overlay1 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  body.modal-is-open1 .modal-overlay1 {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .modal-img {
+      max-width: 70%;
+
+  }
+  
+  .modal1 {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 3rem;
+    background-color: greenyellow;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
+    color: #333;
+    font-family: 'Share Tech Mono', monospace;
+    height: 600px;
+    width: 600px;
+    /* max-width: fit-content; */
+    min-width: 70vmin;
+    min-height: 70vmin;
+    padding: 2.5rem;
+  }
+  
+  .modal__close-button1 {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    padding: 0.5rem;
+    font-size: 2em;
+    border-radius: 50%;
+    border: 2px solid var(--r-heading-color);
+    background: white;
+    color: var(--r-heading-color);
+    opacity: 1;
+    /* box-shadow: black; */
+  }
+  
+  .modal__close-button1 button:hover,
+  .modal__close-button1:active,
+  .modal__close-button1:focus {
+    background: white;
+    border-color: var(--r-heading-color);
+  }
+
+
+  .button1 {
+    background-color: black;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.5rem;
+}
+
+.button1:hover {
+    background-color: greenyellow;
+    color: black;
+
+
+}
+
+
+/* ===================== MODAL 1 =======================  */
+
+
+/* ===================== MODAL 2 =======================  */
+/* Modal */
+.modal-overlay2 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  body.modal-is-open2 .modal-overlay2 {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .modal-img {
+      max-width: 70%;
+
+  }
+  
+  .modal2 {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 3rem;
+    background-color: greenyellow;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
+    color: #333;
+    font-family: 'Share Tech Mono', monospace;
+    height: 600px;
+    width: 600px;
+    /* max-width: fit-content; */
+    min-width: 70vmin;
+    min-height: 70vmin;
+    padding: 2.5rem;
+  }
+  
+  .modal__close-button2 {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    padding: 0.5rem;
+    font-size: 2em;
+    border-radius: 50%;
+    border: 2px solid var(--r-heading-color);
+    background: white;
+    color: var(--r-heading-color);
+    opacity: 1;
+    /* box-shadow: black; */
+  }
+  
+  .modal__close-button2 button:hover,
+  .modal__close-button2:active,
+  .modal__close-button2:focus {
+    background: white;
+    border-color: var(--r-heading-color);
+  }
+
+
+  .button2{
+    background-color: black;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.5rem;
+}
+
+.button2:hover {
+    background-color: greenyellow;
+    color: black;
+
+
+}
+
+
+/* ===================== MODAL 2 =======================  */
+
+
+/* ===================== MODAL 3 =======================  */
+/* Modal */
+.modal-overlay3 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  body.modal-is-open3 .modal-overlay3 {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .modal-img {
+      max-width: 70%;
+
+  }
+  
+  .modal3 {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 3rem;
+    background-color: greenyellow;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
+    color: #333;
+    font-family: 'Share Tech Mono', monospace;
+    height: 600px;
+    width: 600px;
+    /* max-width: fit-content; */
+    min-width: 70vmin;
+    min-height: 70vmin;
+    padding: 2.5rem;
+  }
+  
+  .modal__close-button3 {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    padding: 0.5rem;
+    font-size: 2em;
+    border-radius: 50%;
+    border: 2px solid var(--r-heading-color);
+    background: white;
+    color: var(--r-heading-color);
+    opacity: 1;
+    /* box-shadow: black; */
+  }
+  
+  .modal__close-button3 button:hover,
+  .modal__close-button3:active,
+  .modal__close-button3:focus {
+    background: white;
+    border-color: var(--r-heading-color);
+  }
+
+
+  .button3{
+    background-color: black;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.5rem;
+}
+
+.button3:hover {
+    background-color: greenyellow;
+    color: black;
+
+
+}
+
+
+/* ===================== MODAL 3 =======================  */
+
+
+
+
 
 /****************** samus and zero suit samus section *********************/
 

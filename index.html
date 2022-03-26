@@ -147,11 +147,13 @@
     
   <!--   ****************************************************************************************   -->
   <!--   ****************************************************************************************   -->
+
+  
   <section class="clean-block about-us" id="suits">  <!-- section3 - about samus aran --> 
     <div class="section3">
       <br><br><br>
       <h2 class="sect3-title" id="spaceSuites">TYPES OF SPACE SUITS</h2>
-      <p class="sect3-text" id="hoverExplainTxt">(Hover over an image to read more about each side)</p>
+      <p class="sect3-text" id="hoverExplainTxt">(They appear throughout the series in no particular order)</p>
       <br><br>
       <div class="row justify-content">
         <div class="col-sm-6 col-lg-3 text-center samus-bck"> <!-- normal samus photo -->
@@ -164,6 +166,28 @@
             <img class="card-img-top" src="img/samustall.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
            </picture>
            <br><br>
+               <!-- Modal  -->
+                <div class="buttons1">
+                  <button class="button1 jsModalButton1">Power Suit Details</button>
+                </div>
+                <br>
+                <div class="modal-overlay1 jsModalOverlay1">
+                  <div class="modal1">
+                    <div class="modal__content1">
+                      <h1>POWER_SUIT</h1>
+                      <hr>
+                      <p>As seen in all Metroid games to date</p>
+                      <p id="powertxt"></p>
+                      <img class="modal-img" src="img/samustall.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
+                      <hr>
+                      <button class="modal__close-button1 jsModalClose1">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            <!-- Modal  -->
+
         </div> <!-- normal samus photo -->
 
         <div class="col-sm-6 col-lg-3 text-center  samus-bck"> <!-- zero suit samus photo -->
@@ -176,6 +200,31 @@
               <img class="card-img-top" src="img/zerosuittall.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
           </picture>
           <br><br>
+                <!-- Modal  -->
+                <div class="buttons2">
+                  <button class="button2 jsModalButton2">Zero Suit Details</button>
+                </div>
+                <br>
+                <div class="modal-overlay2 jsModalOverlay2">
+                  <div class="modal2">
+                    <div class="modal__content2">
+                      <h1>ZERO_SUIT</h1>
+                      <hr>
+                      <p>As seen on Metroid: Zero Mission (2004)</p>
+                      <p id="zerotxt"></p>
+                      <img class="modal-img" src="img/zerosuittall.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
+                      <hr>
+                      <button class="modal__close-button2 jsModalClose2">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            <!-- Modal  -->
+
+                
+          
+
 
         </div> <!-- zero suit samus photo -->
 
@@ -189,6 +238,27 @@
               <img class="card-img-top" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
           </picture>
           <br><br>
+                <!-- Modal  -->
+                <div class="buttons">
+                  <button class="button jsModalButton">Light Suit Details</button>
+                </div>
+                <br>
+                <div class="modal-overlay jsModalOverlay">
+                  <div class="modal">
+                    <div class="modal__content">
+                      <h1>LIGHT_SUIT</h1>
+                      <hr>
+                      <p>As seen on Metroid Prime 2: Echoes (2004)</p>
+                      <p id="lightsuittxt"></p>
+                      <img class="modal-img" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
+                      <hr>
+                      <button class="modal__close-button jsModalClose">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>             
+            <!-- Modal  -->
 
         </div> <!-- light suit samus photo -->
 
@@ -199,11 +269,33 @@
               <source media="(max-width: 799px)" srcset="img/darksuit.png" type="image/png">
               <source media="(min-width: 800px)" srcset="img/darksuit.webp" type="image/webp">
               <source media="(min-width: 800px)" srcset="img/darksuit.png" type="image/png">
-              <img class="card-img-top" src="img/lightsuit.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
+              <img class="card-img-top" src="img/darksuit.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
           </picture>
           <br><br>
+                <!-- Modal  -->
+                <div class="buttons3">
+                  <button class="button3 jsModalButton3">Dark Suit Details</button>
+                </div>
+                <br>
+                <div class="modal-overlay3 jsModalOverlay3">
+                  <div class="modal3">
+                    <div class="modal__content3">
+                      <h1>DARK_SUIT</h1>
+                      <hr>
+                      <p>As seen on Metroid Prime 2: Echoes (2004)</p>
+                      <p id="darktxt"></p>
+                      <img class="modal-img" src="img/darksuit.png" alt="Samus Aran Standing on a transparent background" loading="lazy">
+                      <hr>
+                      <button class="modal__close-button3 jsModalClose3">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>             
+            <!-- Modal  -->
 
         </div> <!-- dark suit samus photo -->
+
 
 
       </div>
@@ -214,9 +306,11 @@
         <br>
         <p id="showArray"> </p>
         <hr>
-        <button id="changeColorBro">CLICK HERE</button>
+        <button id="changeColorBro"></button>
       </div>
-    </div> 
+
+      
+    </div>
   </section>  <!-- section3 - about samus aran --> 
 
   <!--   ****************************************************************************************   -->

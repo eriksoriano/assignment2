@@ -297,7 +297,7 @@ h4 {
     opacity: 0;
     z-index: -1;
     padding: 1em;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
   }
   
   body.modal-is-open .modal-overlay {
@@ -350,14 +350,14 @@ h4 {
   }
 
 
-  .button{
+  .button {
     background-color: black;
     text-decoration: none;
     color: greenyellow;
     font-size: 2rem;
 }
 
-.button:hover {
+.button :hover {
     background-color: greenyellow;
     color: black;
 

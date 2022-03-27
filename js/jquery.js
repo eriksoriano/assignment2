@@ -72,7 +72,7 @@ $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
 
 
 var options = {
-    series: [44, 55, 41, 17, 21, 30],
+    series: [44, 55, 41, 21, 30],
     chart: {
     type: 'donut',
   },
@@ -80,7 +80,7 @@ var options = {
     breakpoint: 480,
     options: {
       chart: {
-        width: 600
+        width: 400
       },
       legend: {
         position: 'bottom'

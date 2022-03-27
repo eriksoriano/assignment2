@@ -320,12 +320,12 @@ h4 {
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
     color: #333;
     font-family: 'Share Tech Mono', monospace;
-    height: 550px;
-    width: 500px;
+    height: 440px;
+    width: 400px;
     /* max-width: fit-content; */
     min-width: 70vmin;
     min-height: 70vmin;
-    padding: 2.5rem;
+    padding: 1rem;
   }
   
   .modal__close-button {
@@ -389,7 +389,7 @@ h4 {
   }
 
   .modal-img {
-      max-width: 70%;
+    width: 100px;
 
   }
   
@@ -403,12 +403,12 @@ h4 {
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
     color: #333;
     font-family: 'Share Tech Mono', monospace;
-    height: 550px;
-    width: 500px;
+    height: 440px;
+    width: 400px;
     /* max-width: fit-content; */
     min-width: 70vmin;
     min-height: 70vmin;
-    padding: 2.5rem;
+    padding: 1rem;
   }
   
   .modal__close-button1 {
@@ -473,10 +473,6 @@ h4 {
     z-index: 1;
   }
 
-  .modal-img {
-      max-width: 70%;
-
-  }
   
   .modal2 {
     text-align: center;
@@ -488,12 +484,13 @@ h4 {
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
     color: #333;
     font-family: 'Share Tech Mono', monospace;
-    height: 550px;
-    width: 500px;
+    height: 440px;
+    width: 400px;
     /* max-width: fit-content; */
     min-width: 70vmin;
     min-height: 70vmin;
-    padding: 2.5rem;
+    padding: 1rem;
+
   }
   
   .modal__close-button2 {
@@ -559,7 +556,7 @@ h4 {
   }
 
   .modal-img {
-      max-width: 70%;
+      width: 50%;
 
   }
   
@@ -573,12 +570,12 @@ h4 {
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.15);
     color: #333;
     font-family: 'Share Tech Mono', monospace;
-    height: 550px;
-    width: 500px;
+    height: 440px;
+    width: 400px;
     /* max-width: fit-content; */
     min-width: 70vmin;
     min-height: 70vmin;
-    padding: 2.5rem;
+    padding: 1rem;
   }
   
   .modal__close-button3 {

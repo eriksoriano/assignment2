@@ -177,7 +177,7 @@ const lightsuitTxt = document.querySelector("#lightsuittxt");
 console.log(lightsuitTxt);
 
 lightsuitTxt.innerHTML = "This suit grants the player full immunity against dark matter and dark enemies";
-lightsuitTxt.style.setProperty('padding-bottom', '2rem');
+// lightsuitTxt.style.setProperty('padding-bottom', '2rem');
 
 
 
@@ -206,7 +206,7 @@ const powerSuitTxt = document.querySelector("#powertxt");
 console.log(powerSuitTxt);
 
 powerSuitTxt.innerHTML = "The iconic Power suit is Samus' signature look; as she appears in most games, always ready to kick ass.";
-powerSuitTxt.style.setProperty('padding-bottom', '2rem');
+// powerSuitTxt.style.setProperty('padding-bottom', '2rem');
 
 
 
@@ -236,7 +236,7 @@ const zeroSuitTxt = document.querySelector("#zerotxt");
 console.log(zeroSuitTxt);
 
 zeroSuitTxt.innerHTML = "Samus sheds her signature look for a sexier and more comfortable attire; this allows her to jump and kick";
-zeroSuitTxt.style.setProperty('padding-bottom', '2rem');
+// zeroSuitTxt.style.setProperty('padding-bottom', '2rem');
 
 
 
@@ -264,7 +264,7 @@ const darkSuitTxt = document.querySelector("#darktxt");
 console.log(darkSuitTxt);
 
 darkSuitTxt.innerHTML = "The Dark Suit allows samus to navigate through dark aether and reduce damage due to toxic atmosphere and pressure.";
-darkSuitTxt.style.setProperty('padding-bottom', '2rem');
+// darkSuitTxt.style.setProperty('padding-bottom', '2rem');
 
 
 

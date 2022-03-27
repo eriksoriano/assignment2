@@ -178,6 +178,8 @@ lightsuitTxt.innerHTML = "This suit grants the player full immunity against dark
 lightsuitTxt.style.setProperty('padding-bottom', '2rem');
 
 
+
+
 // ==================== Modal 1 POWER ====================
 
 const modalButton1 = document.querySelector('.jsModalButton1')
@@ -259,7 +261,7 @@ modalOverlay3.addEventListener('click', event => {
 const darkSuitTxt = document.querySelector("#darktxt");
 console.log(darkSuitTxt);
 
-darkSuitTxt.innerHTML = "The Dark Suit allows samus to navigate through dark aether and reduce damage due to toxic atmosphere and pressure. It also lets her dive underwater in poisonous phazon water.";
+darkSuitTxt.innerHTML = "The Dark Suit allows samus to navigate through dark aether and reduce damage due to toxic atmosphere and pressure.";
 darkSuitTxt.style.setProperty('padding-bottom', '2rem');
 
 

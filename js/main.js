@@ -40,7 +40,7 @@ addClasstoDiv.setAttribute('class', 'para-style') // now that class is added, we
 
 addClasstoDiv.style.setProperty('font-family', 'Share Tech Mono, monospace');
 addClasstoDiv.style.setProperty('padding', '1rem');
-addClasstoDiv.style.setProperty('margin', '2rem');
+addClasstoDiv.style.setProperty('margin', '1rem');
 
 
 addClasstoDiv.style.setProperty('color', 'greenyellow');
@@ -76,10 +76,10 @@ thisNewPara.style.setProperty('font-size', '1.5rem'); // actual HW task, but i a
 
 
 const mySuitArray = [
-    "GRAVITY SUIT <br>",
-    "PHAZON SUIT <br>",
-    "VARIA SUIT <br>",
-    "FUSION SUIT <br>",
+    "GRAVITY SUIT",
+    " PHAZON SUIT",
+    " VARIA SUIT",
+    "FUSION SUIT",
     "METROID SUIT"
 ];
 console.log(mySuitArray);
@@ -88,7 +88,7 @@ const showmySuitArray =document.querySelector("#showArray"); // actual HW task, 
 showmySuitArray.innerHTML = mySuitArray;
 
 showmySuitArray.style.setProperty('color', 'orange');
-showmySuitArray.style.setProperty('font-size', '2rem'); 
+showmySuitArray.style.setProperty('font-size', '1.3rem'); 
 showmySuitArray.style.setProperty('text-align', 'center'); 
 
 
@@ -102,15 +102,17 @@ showmySuitArray.style.setProperty('text-align', 'center');
 const changeDivColor = document.querySelector('#changeColorBro');
 console.log(changeDivColor);
 
-changeDivColor.innerHTML = "CLICK HERE TO CHANGE BACKGROUND OF THIS AREA";
+changeDivColor.innerHTML = "CLICK HERE TO CHANGE COLORS";
 
 changeDivColor.style.setProperty('color', 'greenyellow');
 changeDivColor.style.setProperty('font-size', '1rem'); // actual HW task, but i added more stuff
 changeDivColor.style.setProperty('background-color', '#202020');
 changeDivColor.style.setProperty('border-radius', '2rem');
 changeDivColor.style.setProperty('padding', '1rem');
-changeDivColor.style.setProperty('margin', '1rem');
+changeDivColor.style.setProperty('margin', 'auto');
 changeDivColor.style.setProperty('border', '1px solid');
+changeDivColor.style.setProperty('display', 'block');
+
 
 
 

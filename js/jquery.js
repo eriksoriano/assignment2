@@ -50,7 +50,7 @@ $("#replacePAbove").css("margin", "auto");
 
 
 // this stylizes div where chart is from APEXCHARTS
-$("#chart").css("max-width", "30rem");
+$("#chart").css("max-width", "500px");
 $("#chart").css("margin", "auto");
 $("#chart").css("padding", "3rem");
 $("#chart").css("background-color", "#202020");

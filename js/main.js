@@ -259,7 +259,7 @@ modalOverlay3.addEventListener('click', event => {
 const darkSuitTxt = document.querySelector("#darktxt");
 console.log(darkSuitTxt);
 
-darkSuitTxt.innerHTML = "Samus sheds her signature look for a sexier and more comfortable attire; this allows her to jump and kick";
+darkSuitTxt.innerHTML = "The Dark Suit allows samus to navigate through dark aether and reduce damage due to toxic atmosphere and pressure. It also lets her dive underwater in poisonous phazon water.";
 darkSuitTxt.style.setProperty('padding-bottom', '2rem');
 
 

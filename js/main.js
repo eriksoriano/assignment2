@@ -44,7 +44,7 @@ addClasstoDiv.style.setProperty('margin', '1rem');
 
 
 addClasstoDiv.style.setProperty('color', 'greenyellow');
-addClasstoDiv.style.setProperty('font-size', '3rem');
+addClasstoDiv.style.setProperty('font-size', '2rem');
 
 addClasstoDiv.style.setProperty('background-color', 'black');
 addClasstoDiv.style.setProperty('border-radius', '2rem');

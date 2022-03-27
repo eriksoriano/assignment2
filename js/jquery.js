@@ -22,7 +22,7 @@ jqueryDiv.style.setProperty('border', '1px solid');
 $("#replaceMe").addClass("hwPara-style");
 
 // $(".hwPara-style").css("background-color", "greenyellow"); // change 1 property
-$(".hwPara-style").css({"color":"black", "font-size": "1.5rem", "padding":"3rem"}); // now change multipe properties
+$(".hwPara-style").css({"color":"black", "font-size": "1rem", "padding":"3rem"}); // now change multipe properties
 $("#replaceMe").html("Click the button below to see my favorite game in the series"); // now change multipe properties
 
 
@@ -37,8 +37,9 @@ $( "#replacePAbove" ).click(function() {
     $("#replaceMe").prepend("METROID PRIME (2002)<hr>");
 });
 
-$("#replacePAbove").css("background-color", "greenyellow");
-$("#replacePAbove").css("border-radius", "2rem");
+$("#replacePAbove").css("color", "white");
+$("#replacePAbove").css("background-color", "black");
+$("#replacePAbove").css("border-radius", "1rem");
 
 $("#replacePAbove").css("display", "block");
 $("#replacePAbove").css("margin", "auto");
@@ -59,10 +60,10 @@ $("#chart").css("border-radius", "3rem");
 
 
 
-$("#chartTitle").css("color", "greenyellow");
+$("#chartTitle").css("color", "white");
 $("#chartTitle").css("text-align", "center");
 $("#chartTitle").css("font-size", "1rem");
-// $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
+$("#chartTitle").css("font-family", "Share Tech Mono, monospace");
 
 
 
@@ -79,7 +80,7 @@ var options = {
     breakpoint: 480,
     options: {
       chart: {
-        width: 200
+        width: 600
       },
       legend: {
         position: 'bottom'

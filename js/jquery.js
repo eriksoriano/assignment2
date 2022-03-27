@@ -7,50 +7,62 @@ jqueryDiv.style.setProperty('font-family', 'Share Tech Mono, monospace');
 
 
 
-// jqueryDiv.style.setProperty('color', 'greenyellow');
-// jqueryDiv.style.setProperty('font-size', '2rem');
+jqueryDiv.style.setProperty('color', 'greenyellow');
+jqueryDiv.style.setProperty('font-size', '2rem');
 
-// jqueryDiv.style.setProperty('background-color', 'red');
-// jqueryDiv.style.setProperty('border-radius', '2rem');
-// jqueryDiv.style.setProperty('border', '1px solid');
+jqueryDiv.style.setProperty('background-color', 'orange');
+jqueryDiv.style.setProperty('padding', '2rem');
+
+jqueryDiv.style.setProperty('border-radius', '3rem');
+jqueryDiv.style.setProperty('border', '1px solid');
 
 
 // ================ the HW jQuery goes here =====================
 
 $("#replaceMe").addClass("hwPara-style");
 
-$(".hwPara-style").css("background-color", "greenyellow"); // change 1 property
-$(".hwPara-style").css({"color":"black", "font-size": "20px", "padding":"3rem"}); // now change multipe properties
-$("#replaceMe").html("<br> MY FAVORITE GAMES IN EACH OF THE TWO<br> "); // now change multipe properties
+// $(".hwPara-style").css("background-color", "greenyellow"); // change 1 property
+$(".hwPara-style").css({"color":"black", "font-size": "1.5rem", "padding":"3rem"}); // now change multipe properties
+$("#replaceMe").html("Click the button below to see my favorite game in the series"); // now change multipe properties
 
 
 
 
 // $("#replaceMe").prepend("1ST PERSON VIEW:<br>Metroid Prime (2002)<hr>"); // added content BEFORE a paragraph
-$("#replaceMe").append("<hr> 3RD PERSON VIEW:<br>Metroid Dread (2021)<hr>"); //  added content AFTER paragraph
 
 
 
 // add content BEFORE paragraph when user click button
 $( "#replacePAbove" ).click(function() {
-    $("#replaceMe").prepend("1ST PERSON VIEW:<br>Metroid Prime (2002)<hr>");
+    $("#replaceMe").prepend("METROID PRIME (2002)<hr>");
 });
 
 $("#replacePAbove").css("background-color", "greenyellow");
+$("#replacePAbove").css("border-radius", "2rem");
+
+$("#replacePAbove").css("display", "block");
+$("#replacePAbove").css("margin", "auto");
+
+
+
 
 
 
 
 // this stylizes div where chart is from APEXCHARTS
-$("#chart").css("max-width", "60rem");
+$("#chart").css("max-width", "30rem");
 $("#chart").css("margin", "auto");
 $("#chart").css("padding", "3rem");
+$("#chart").css("background-color", "#202020");
+$("#chart").css("border-radius", "3rem");
+
+
 
 
 $("#chartTitle").css("color", "greenyellow");
 $("#chartTitle").css("text-align", "center");
-$("#chartTitle").css("font-size", "1.5rem");
-$("#chartTitle").css("font-family", "Share Tech Mono, monospace");
+$("#chartTitle").css("font-size", "1rem");
+// $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
 
 
 
@@ -59,7 +71,7 @@ $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
 
 
 var options = {
-    series: [44, 55, 41, 17, 15, 21, 30, 55],
+    series: [44, 55, 41, 17, 21, 30],
     chart: {
     type: 'donut',
   },

@@ -1,0 +1,80 @@
+// ================ first stylize <div> where jQuery will go =====================
+
+const jqueryDiv = document.querySelector("#jqueryEdit");
+console.log(jqueryDiv); // it works 
+
+jqueryDiv.style.setProperty('font-family', 'Share Tech Mono, monospace');
+
+
+
+// jqueryDiv.style.setProperty('color', 'greenyellow');
+// jqueryDiv.style.setProperty('font-size', '2rem');
+
+// jqueryDiv.style.setProperty('background-color', 'red');
+// jqueryDiv.style.setProperty('border-radius', '2rem');
+// jqueryDiv.style.setProperty('border', '1px solid');
+
+
+// ================ the HW jQuery goes here =====================
+
+$("#replaceMe").addClass("hwPara-style");
+
+$(".hwPara-style").css("background-color", "greenyellow"); // change 1 property
+$(".hwPara-style").css({"color":"black", "font-size": "20px", "padding":"3rem"}); // now change multipe properties
+$("#replaceMe").html("<br> MY FAVORITE GAMES IN EACH OF THE TWO<br> "); // now change multipe properties
+
+
+
+
+// $("#replaceMe").prepend("1ST PERSON VIEW:<br>Metroid Prime (2002)<hr>"); // added content BEFORE a paragraph
+$("#replaceMe").append("<hr> 3RD PERSON VIEW:<br>Metroid Dread (2021)<hr>"); //  added content AFTER paragraph
+
+
+
+// add content BEFORE paragraph when user click button
+$( "#replacePAbove" ).click(function() {
+    $("#replaceMe").prepend("1ST PERSON VIEW:<br>Metroid Prime (2002)<hr>");
+});
+
+$("#replacePAbove").css("background-color", "greenyellow");
+
+
+
+
+// this stylizes div where chart is from APEXCHARTS
+$("#chart").css("max-width", "60rem");
+$("#chart").css("margin", "auto");
+$("#chart").css("padding", "3rem");
+
+
+$("#chartTitle").css("color", "greenyellow");
+$("#chartTitle").css("text-align", "center");
+$("#chartTitle").css("font-size", "1.5rem");
+$("#chartTitle").css("font-family", "Share Tech Mono, monospace");
+
+
+
+
+
+
+
+var options = {
+    series: [44, 55, 41, 17, 15, 21, 30, 55],
+    chart: {
+    type: 'donut',
+  },
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+  };
+
+  var chart = new ApexCharts(document.querySelector("#chart"), options);
+  chart.render();

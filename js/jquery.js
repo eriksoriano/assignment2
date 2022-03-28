@@ -73,7 +73,7 @@ var options = {
     series: [44, 55, 41, 30],
     labels: ['Tallon IV', 'Zebes', 'Aether','ZDR'],
     chart: {
-    type: 'pie',
+    type: 'donut',
   },
   responsive: [{
     breakpoint: 480,

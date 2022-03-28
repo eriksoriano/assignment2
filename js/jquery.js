@@ -52,10 +52,9 @@ $("#replacePAbove").css("margin", "auto");
 
 // this stylizes div where chart is from APEXCHARTS
 $("#chart").css("max-width", "30rem");
-// $("#chart").css("margin", "auto");
 $("#chart").css("display", "block");
 $("#chart").css("margin", "auto");
-$("#chart").css("padding", "2rem");
+$("#chart").css("padding", "2em");
 $("#chart").css("background-color", "rgb(255, 192, 75)");
 $("#chart").css("border-radius", "3rem");
 
@@ -69,17 +68,14 @@ $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
 
 
 
-
-
-
-
+// donut chart info is below
 var options = {
     series: [44, 55, 41, 30],
     chart: {
     type: 'donut',
   },
   responsive: [{
-    breakpoint: 480,
+    breakpoint: 400,
     options: {
       chart: {
         width: 360

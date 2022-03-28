@@ -70,10 +70,13 @@ $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
 
 // donut chart info is below
 var options = {
+  
     series: [44, 55, 41, 30],
     labels: ['Tallon IV', 'Zebes', 'Aether','ZDR'],
     chart: {
     type: 'donut',
+    size: 600,
+
   },
   responsive: [{
     breakpoint: 480,

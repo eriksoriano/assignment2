@@ -54,13 +54,13 @@ $("#replacePAbove").css("margin", "auto");
 $("#chart").css("max-width", "500px");
 $("#chart").css("margin", "auto");
 $("#chart").css("padding", "3rem");
-$("#chart").css("background-color", "#202020");
+$("#chart").css("background-color", "rgb(255, 192, 75)");
 $("#chart").css("border-radius", "3rem");
 
 
 
 
-$("#chartTitle").css("color", "white");
+// $("#chartTitle").css("color", "white");
 $("#chartTitle").css("text-align", "center");
 $("#chartTitle").css("font-size", "1rem");
 $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
@@ -80,7 +80,7 @@ var options = {
     breakpoint: 480,
     options: {
       chart: {
-        width: 400
+        width: 360
       },
       legend: {
         position: 'bottom'

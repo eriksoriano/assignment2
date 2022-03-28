@@ -75,7 +75,7 @@ var options = {
     type: 'donut',
   },
   responsive: [{
-    breakpoint: 400,
+    breakpoint: 480,
     options: {
       chart: {
         width: 360

@@ -51,7 +51,7 @@ $("#replacePAbove").css("margin", "auto");
 
 
 // this stylizes div where chart is from APEXCHARTS
-$("#chart").css("max-width", "30rem");
+// $("#chart").css("max-width", "30rem");
 $("#chart").css("display", "block");
 $("#chart").css("margin", "auto");
 $("#chart").css("padding", "2em");
@@ -71,14 +71,15 @@ $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
 // donut chart info is below
 var options = {
     series: [44, 55, 41, 30],
+    labels: ['Tallon IV', 'Zebes', 'Aether','ZDR'],
     chart: {
-    type: 'donut',
+    type: 'pie',
   },
   responsive: [{
     breakpoint: 480,
     options: {
       chart: {
-        width: 360
+        size: 600,
       },
       legend: {
         position: 'bottom'

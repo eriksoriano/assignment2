@@ -94,3 +94,13 @@ var options = {
   var chart = new ApexCharts(document.querySelector("#chart"), options);
   chart.render();
 
+
+
+
+
+    $("#map").css("display", "block");
+    $("#map").css("margin", "auto");
+    $("#map").css("max-width", "25rem");
+
+
+    

@@ -26,6 +26,11 @@
     <!-- apexcharts -->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts" defer></script>
 
+    <!-- leafleft style sheet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+     integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+     crossorigin="">
+
     <!-- homework jQuery -->
     <script src="js/jquery.js" defer></script>
 
@@ -325,6 +330,9 @@
         <h1 id="chartTitle">THIS CHART BELOW SHOWS HOW MANY TIMES SAMUS HAS VISITED EACH PLANET IN HER GALAXY</h1>
         <br>
       </div>
+      <br>
+      <div id="map" style="width: 600px; height: 400px;">this is map</div> <!-- map from leaflet -->
+      
     </div>
   </section>  <!-- section3 - about samus aran --> 
 
@@ -628,5 +636,22 @@
       </div>
   </footer>   <!-- Footer Elements -->
 </section> <!-- section7 - footer -->
+<script id="myMap" src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+     integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+     crossorigin=""></script>
+     
+<!-- another script for leaflet -->
+<script>
+  var map = L.map('map').setView([25.7492, 80.2635], 12);
+  L.tileLayer('https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png', {
+     attribution:
+         '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors' +
+         ', Tiles courtesy of <a href="https://geo6.be/">GEO-6</a>',
+     maxZoom: 18
+ }).addTo(map);
+ var marker = L.marker([50.84673, 4.35247]).addTo(map);
+ var popup = marker.bindPopup('<b>Samus Current Location</b><br />Tallon IV');
+ popup.openPopup();
+</script>
 </body>
 </html>

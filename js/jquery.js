@@ -52,6 +52,8 @@ $("#replacePAbove").css("margin", "auto");
 
 // this stylizes div where chart is from APEXCHARTS
 $("#chart").css("max-width", "30rem");
+// $("#chart").css("margin", "auto");
+$("#chart").css("display", "block");
 $("#chart").css("margin", "auto");
 $("#chart").css("padding", "2rem");
 $("#chart").css("background-color", "rgb(255, 192, 75)");

@@ -51,9 +51,9 @@ $("#replacePAbove").css("margin", "auto");
 
 
 // this stylizes div where chart is from APEXCHARTS
-$("#chart").css("max-width", "500px");
+$("#chart").css("max-width", "30rem");
 $("#chart").css("margin", "auto");
-$("#chart").css("padding", "3rem");
+$("#chart").css("padding", "2rem");
 $("#chart").css("background-color", "rgb(255, 192, 75)");
 $("#chart").css("border-radius", "3rem");
 
@@ -77,7 +77,7 @@ var options = {
     type: 'donut',
   },
   responsive: [{
-    breakpoint: 480,
+    breakpoint: 500,
     options: {
       chart: {
         width: 360
@@ -91,3 +91,4 @@ var options = {
 
   var chart = new ApexCharts(document.querySelector("#chart"), options);
   chart.render();
+

@@ -23,10 +23,10 @@ p {
 /****************** carousel section *********************/
 .section1 {
     background-color:#ffa600;
-    padding-top: 4rem;
+    padding-top: 1rem;
     /* padding-left: 1rem; */
     /* padding-right: 1rem; */
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
 
 /****************** her name is samus section *********************/
@@ -281,7 +281,23 @@ h4 {
 
 } */
 
+.mapTitle {
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    text-align: center;
 
+}
+
+.tallonIV {
+    color: greenyellow;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+
+}
 
 /* ===================== MODAL =======================  */
 /* Modal */

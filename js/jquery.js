@@ -51,7 +51,7 @@ $("#replacePAbove").css("margin", "auto");
 
 
 // this stylizes div where chart is from APEXCHARTS
-// $("#chart").css("max-width", "30rem");
+$("#chart").css("max-width", "30rem");
 $("#chart").css("display", "block");
 $("#chart").css("margin", "auto");
 $("#chart").css("padding", "2em");
@@ -63,19 +63,19 @@ $("#chart").css("border-radius", "3rem");
 
 // $("#chartTitle").css("color", "white");
 $("#chartTitle").css("text-align", "center");
-$("#chartTitle").css("font-size", "1rem");
-$("#chartTitle").css("font-family", "Share Tech Mono, monospace");
+$("#chartTitle").css("font-size", "1.3rem");
+// $("#chartTitle").css("font-family", "Share Tech Mono, monospace");
 
 
 
 // donut chart info is below
 var options = {  
   
-    series: [44, 55, 41, 30, 25],
+    series: [44, 55, 41, 30],
     labels: ['Tallon IV', 'Zebes', 'Aether','ZDR'],
     chart: {
     type: 'donut',
-    size: 600,
+    // width: 600,
 
   },
   responsive: [{
@@ -96,11 +96,31 @@ var options = {
 
 
 
+// style map from leaflet below
+$("#map").css("display", "block");
+$("#map").css("margin", "auto");
+$("#map").css("max-width", "25rem");
+// $("#map").css("border-radius", "2rem");
+$("#map").css("color", "greenyellow");
+$("#map").css("border", "3px solid");
 
 
-    $("#map").css("display", "block");
-    $("#map").css("margin", "auto");
-    $("#map").css("max-width", "25rem");
 
 
-    
+
+
+
+// another script for map from leaflet ***EXTRA CREDIT****
+var map = L.map('map').setView([25.7492, 80.2635], 12);
+    L.tileLayer('img/tallon_overworld.jpg', {
+       attribution:
+           '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors' +
+           ', Tiles courtesy of <a href="https://geo6.be/">GEO-6</a>',
+       maxZoom: 30
+   }).addTo(map);
+   var marker = L.marker([25.7492, 80.2635]).addTo(map);
+   var popup = marker.bindPopup('<b>Samus Current Location</b><br />Tallon IV');
+   popup.openPopup();
+
+
+  

@@ -373,7 +373,7 @@ h4 {
     font-size: 2rem;
 }
 
-.button :hover {
+.button:hover {
     background-color: greenyellow;
     color: black;
 

@@ -111,7 +111,7 @@ changeDivColor.style.setProperty('border-radius', '2rem');
 changeDivColor.style.setProperty('padding', '1rem');
 changeDivColor.style.setProperty('margin', 'auto');
 changeDivColor.style.setProperty('border', '1px solid');
-changeDivColor.style.setProperty('display', 'block');
+changeDivColor.style.setProperty('display', 'block'); 
 
 
 
@@ -166,7 +166,7 @@ modalButton.addEventListener('click', event => {
 modalCloseButton.addEventListener('click', event => {
   document.body.classList.remove('modal-is-open')
 })
-
+ 
 modalOverlay.addEventListener('click', event => {
   if (!event.target.closest('.modal')) {
     document.body.classList.remove('modal-is-open')
